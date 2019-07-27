@@ -42,6 +42,16 @@
 					<memberEnd xmi:idref="EAID_dst9EAB5A_2CFF_4aa5_A9CB_B3C5D9ED4F69"/>
 					<memberEnd xmi:idref="EAID_src9EAB5A_2CFF_4aa5_A9CB_B3C5D9ED4F69"/>
 				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="EAID_48C52A01_C998_4e13_A0FE_A681B0DBE421" visibility="public">
+					<memberEnd xmi:idref="EAID_dstC52A01_C998_4e13_A0FE_A681B0DBE421"/>
+					<memberEnd xmi:idref="EAID_srcC52A01_C998_4e13_A0FE_A681B0DBE421"/>
+					<ownedEnd xmi:type="uml:Property" xmi:id="EAID_srcC52A01_C998_4e13_A0FE_A681B0DBE421" visibility="public" association="EAID_48C52A01_C998_4e13_A0FE_A681B0DBE421" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+						<type xmi:idref="EAID_81A6CD02_FCB4_4398_A3B0_4B20FA1303FE"/>
+					</ownedEnd>
+					<ownedEnd xmi:type="uml:Property" xmi:id="EAID_dstC52A01_C998_4e13_A0FE_A681B0DBE421" visibility="public" association="EAID_48C52A01_C998_4e13_A0FE_A681B0DBE421" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+						<type xmi:idref="EAID_843D0506_9A61_42df_B54D_5758FF244743"/>
+					</ownedEnd>
+				</packagedElement>
 				<packagedElement xmi:type="uml:Association" xmi:id="EAID_54D6D3F5_FDF6_47f8_BD12_B6613A92E92D" visibility="public">
 					<memberEnd xmi:idref="EAID_dstD6D3F5_FDF6_47f8_BD12_B6613A92E92D"/>
 					<memberEnd xmi:idref="EAID_srcD6D3F5_FDF6_47f8_BD12_B6613A92E92D"/>
@@ -421,6 +431,26 @@
 					<memberEnd xmi:idref="EAID_dst13B576_5E8A_44da_B496_5135F578D35F"/>
 					<memberEnd xmi:idref="EAID_src13B576_5E8A_44da_B496_5135F578D35F"/>
 				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="EAID_ADA9BA84_8E78_4e10_9429_F67307766599" visibility="public">
+					<memberEnd xmi:idref="EAID_dstA9BA84_8E78_4e10_9429_F67307766599"/>
+					<memberEnd xmi:idref="EAID_srcA9BA84_8E78_4e10_9429_F67307766599"/>
+					<ownedEnd xmi:type="uml:Property" xmi:id="EAID_srcA9BA84_8E78_4e10_9429_F67307766599" visibility="public" association="EAID_ADA9BA84_8E78_4e10_9429_F67307766599" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+						<type xmi:idref="EAID_A1A71A90_C0BA_4599_A383_C848C0C99C9B"/>
+					</ownedEnd>
+					<ownedEnd xmi:type="uml:Property" xmi:id="EAID_dstA9BA84_8E78_4e10_9429_F67307766599" visibility="public" association="EAID_ADA9BA84_8E78_4e10_9429_F67307766599" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+						<type xmi:idref="EAID_3CBF0374_C199_4611_B273_335217DAA5D3"/>
+					</ownedEnd>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="EAID_BFE8C4D8_449B_4894_94C4_E88293135C30" visibility="public">
+					<memberEnd xmi:idref="EAID_dstE8C4D8_449B_4894_94C4_E88293135C30"/>
+					<memberEnd xmi:idref="EAID_srcE8C4D8_449B_4894_94C4_E88293135C30"/>
+					<ownedEnd xmi:type="uml:Property" xmi:id="EAID_srcE8C4D8_449B_4894_94C4_E88293135C30" visibility="public" association="EAID_BFE8C4D8_449B_4894_94C4_E88293135C30" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+						<type xmi:idref="EAID_1C88C9FE_B630_4d1e_BB15_CF532C9EC505"/>
+					</ownedEnd>
+					<ownedEnd xmi:type="uml:Property" xmi:id="EAID_dstE8C4D8_449B_4894_94C4_E88293135C30" visibility="public" association="EAID_BFE8C4D8_449B_4894_94C4_E88293135C30" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+						<type xmi:idref="EAID_3CBF0374_C199_4611_B273_335217DAA5D3"/>
+					</ownedEnd>
+				</packagedElement>
 				<packagedElement xmi:type="uml:Association" xmi:id="EAID_F888E08F_FC42_4bc0_88DD_0EBE0F29FF65" visibility="public">
 					<memberEnd xmi:idref="EAID_dst88E08F_FC42_4bc0_88DD_0EBE0F29FF65"/>
 					<memberEnd xmi:idref="EAID_src88E08F_FC42_4bc0_88DD_0EBE0F29FF65"/>
@@ -492,6 +522,16 @@
 						<type xmi:idref="EAID_6A4FEC17_8638_411c_9D5F_B1D58CA7B57C"/>
 					</ownedAttribute>
 				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="EAID_6D7EAF57_1637_4d3b_A940_E963A8A81098" visibility="public">
+					<memberEnd xmi:idref="EAID_dst7EAF57_1637_4d3b_A940_E963A8A81098"/>
+					<ownedEnd xmi:type="uml:Property" xmi:id="EAID_dst7EAF57_1637_4d3b_A940_E963A8A81098" visibility="public" association="EAID_6D7EAF57_1637_4d3b_A940_E963A8A81098" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+						<type xmi:idref="EAID_835B25CC_F30D_4c70_95DC_EAFBBCA77BAE"/>
+					</ownedEnd>
+					<memberEnd xmi:idref="EAID_src7EAF57_1637_4d3b_A940_E963A8A81098"/>
+					<ownedEnd xmi:type="uml:Property" xmi:id="EAID_src7EAF57_1637_4d3b_A940_E963A8A81098" visibility="public" association="EAID_6D7EAF57_1637_4d3b_A940_E963A8A81098" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+						<type xmi:idref="EAID_88468225_0557_4e10_8683_47260CB2477F"/>
+					</ownedEnd>
+				</packagedElement>
 				<packagedElement xmi:type="uml:Class" xmi:id="EAID_3613834A_6834_47c7_BE44_1D2E679C9D98" name="TemporalEntity" visibility="public"/>
 			</packagedElement>
 			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_69BDC431_BBBF_4934_B289_8A26D324706F" name="System" visibility="public">
@@ -519,6 +559,16 @@
 						<type xmi:idref="EAID_7E5AE506_10E7_4ea9_91B5_01E7674B8750"/>
 					</ownedAttribute>
 				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="EAID_126D7ED0_AF6C_4753_B1A7_5A7AD0DC1BC7" visibility="public">
+					<memberEnd xmi:idref="EAID_dst6D7ED0_AF6C_4753_B1A7_5A7AD0DC1BC7"/>
+					<memberEnd xmi:idref="EAID_src6D7ED0_AF6C_4753_B1A7_5A7AD0DC1BC7"/>
+					<ownedEnd xmi:type="uml:Property" xmi:id="EAID_src6D7ED0_AF6C_4753_B1A7_5A7AD0DC1BC7" visibility="public" association="EAID_126D7ED0_AF6C_4753_B1A7_5A7AD0DC1BC7" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+						<type xmi:idref="EAID_81A6CD02_FCB4_4398_A3B0_4B20FA1303FE"/>
+					</ownedEnd>
+					<ownedEnd xmi:type="uml:Property" xmi:id="EAID_dst6D7ED0_AF6C_4753_B1A7_5A7AD0DC1BC7" visibility="public" association="EAID_126D7ED0_AF6C_4753_B1A7_5A7AD0DC1BC7" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+						<type xmi:idref="EAID_25C30B1D_DB66_4580_BBBE_65E386CBFE2F"/>
+					</ownedEnd>
+				</packagedElement>
 				<packagedElement xmi:type="uml:Class" xmi:id="EAID_06DAF8FB_9AB7_4dc3_858B_0AF52CD806AA" name="Sampler" visibility="public">
 					<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_7B492A11_DE66_43d5_9BCB_1BD2B2859F0B" name="isHostedBy" visibility="private" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false">
 						<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000077_DE66_43d5_9BCB_1BD2B2859F0B" value="1"/>
@@ -535,6 +585,16 @@
 					<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_srcB9FCDC_E03A_4391_959B_B6C0655F7B1B" name="madeSampling" visibility="public" association="EAID_E1B9FCDC_E03A_4391_959B_B6C0655F7B1B" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
 						<type xmi:idref="EAID_EA9649F0_C715_4d2d_80B4_FD95A94E548C"/>
 					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="EAID_D04CDDB5_5867_41c2_886F_54E975949083" visibility="public">
+					<memberEnd xmi:idref="EAID_dst4CDDB5_5867_41c2_886F_54E975949083"/>
+					<memberEnd xmi:idref="EAID_src4CDDB5_5867_41c2_886F_54E975949083"/>
+					<ownedEnd xmi:type="uml:Property" xmi:id="EAID_src4CDDB5_5867_41c2_886F_54E975949083" visibility="public" association="EAID_D04CDDB5_5867_41c2_886F_54E975949083" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+						<type xmi:idref="EAID_81A6CD02_FCB4_4398_A3B0_4B20FA1303FE"/>
+					</ownedEnd>
+					<ownedEnd xmi:type="uml:Property" xmi:id="EAID_dst4CDDB5_5867_41c2_886F_54E975949083" visibility="public" association="EAID_D04CDDB5_5867_41c2_886F_54E975949083" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+						<type xmi:idref="EAID_06DAF8FB_9AB7_4dc3_858B_0AF52CD806AA"/>
+					</ownedEnd>
 				</packagedElement>
 				<packagedElement xmi:type="uml:Class" xmi:id="EAID_6F8294D5_36BB_4b31_8CD9_F32AB66DCA70" name="Sensor" visibility="public">
 					<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_00709094_595D_4438_96E3_69F776A2EE7F" name="detects" visibility="private" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false">
@@ -570,6 +630,16 @@
 				<packagedElement xmi:type="uml:Association" xmi:id="EAID_B867A818_DC6C_413b_AD43_5AE59DCB9469" visibility="public">
 					<memberEnd xmi:idref="EAID_dst67A818_DC6C_413b_AD43_5AE59DCB9469"/>
 					<memberEnd xmi:idref="EAID_src67A818_DC6C_413b_AD43_5AE59DCB9469"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="EAID_2276E838_6D7A_42f7_8827_5212CA6A2F6A" visibility="public">
+					<memberEnd xmi:idref="EAID_dst76E838_6D7A_42f7_8827_5212CA6A2F6A"/>
+					<memberEnd xmi:idref="EAID_src76E838_6D7A_42f7_8827_5212CA6A2F6A"/>
+					<ownedEnd xmi:type="uml:Property" xmi:id="EAID_src76E838_6D7A_42f7_8827_5212CA6A2F6A" visibility="public" association="EAID_2276E838_6D7A_42f7_8827_5212CA6A2F6A" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+						<type xmi:idref="EAID_81A6CD02_FCB4_4398_A3B0_4B20FA1303FE"/>
+					</ownedEnd>
+					<ownedEnd xmi:type="uml:Property" xmi:id="EAID_dst76E838_6D7A_42f7_8827_5212CA6A2F6A" visibility="public" association="EAID_2276E838_6D7A_42f7_8827_5212CA6A2F6A" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+						<type xmi:idref="EAID_6F8294D5_36BB_4b31_8CD9_F32AB66DCA70"/>
+					</ownedEnd>
 				</packagedElement>
 			</packagedElement>
 			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_1CF9A10C_2894_4959_9BCB_DF1841BEE8A8" name="SystemProperty" visibility="public"/>
@@ -639,7 +709,7 @@
 	<xmi:Extension extender="Enterprise Architect" extenderID="6.5">
 		<elements>
 			<element xmi:idref="EAPK_1B8CF700_1082_4092_969F_91422FCC7A63" xmi:type="uml:Package" name="SOSA" scope="public">
-				<model package2="EAID_1B8CF700_1082_4092_969F_91422FCC7A63" package="EAPK_4D801F95_8F69_4905_BCB5_3D0C2FA1D49A" tpos="0" ea_localid="2" ea_eleType="package"/>
+				<model package2="EAID_1B8CF700_1082_4092_969F_91422FCC7A63" package="EAPK_FEB95A40_E0E0_41ea_A832_4693DDEA5E62" tpos="0" ea_localid="2" ea_eleType="package"/>
 				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
 				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 11:35:46" modified="2019-06-28 11:35:46" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
@@ -649,7 +719,7 @@
 				<extendedProperties tagged="0" package_name="Model"/>
 				<packageproperties version="1.0"/>
 				<paths/>
-				<times created="2019-06-28 11:35:46" modified="2019-07-16 09:33:46" lastloaddate="2019-07-16 09:33:45" lastsavedate="2019-07-16 09:33:45"/>
+				<times created="2019-06-28 11:35:46" modified="2019-07-18 13:27:51" lastloaddate="2019-07-16 09:33:45" lastsavedate="2019-07-16 09:33:45"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE" packageFlags="isModel=1;VICON=3;"/>
 			</element>
 			<element xmi:idref="EAPK_146E5348_0455_4d03_ABB5_59005B910CD7" xmi:type="uml:Package" name="Condition" scope="public">
@@ -663,7 +733,7 @@
 				<extendedProperties tagged="0" package_name="SOSA"/>
 				<packageproperties version="1.0"/>
 				<paths/>
-				<times created="2019-06-28 11:40:46" modified="2019-07-16 09:33:45" lastloaddate="2019-07-16 09:33:45" lastsavedate="2019-07-16 09:33:45"/>
+				<times created="2019-06-28 11:40:46" modified="2019-07-18 13:27:51" lastloaddate="2019-07-16 09:33:45" lastsavedate="2019-07-16 09:33:45"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
 			<element xmi:idref="EAPK_902E7313_F368_4353_8837_9613F0C04F78" xmi:type="uml:Package" name="Deployment" scope="public">
@@ -677,13 +747,13 @@
 				<extendedProperties tagged="0" package_name="SOSA"/>
 				<packageproperties version="1.0"/>
 				<paths/>
-				<times created="2019-06-28 11:40:52" modified="2019-07-16 09:33:45" lastloaddate="2019-07-16 09:33:45" lastsavedate="2019-07-16 09:33:45"/>
+				<times created="2019-06-28 11:40:52" modified="2019-07-18 13:27:51" lastloaddate="2019-07-16 09:33:45" lastsavedate="2019-07-16 09:33:45"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
 			<element xmi:idref="EAID_843D0506_9A61_42df_B54D_5758FF244743" xmi:type="uml:Class" name="Platform" scope="public">
 				<model package="EAPK_902E7313_F368_4353_8837_9613F0C04F78" tpos="0" ea_localid="4" ea_eleType="element"/>
 				<properties documentation="A &lt;font color=&quot;#c93500&quot;&gt;Platform &lt;/font&gt;is an entity that &lt;font color=&quot;#c93500&quot;&gt;hosts &lt;/font&gt;other entities, particularly &lt;font color=&quot;#c93500&quot;&gt;Sensors&lt;/font&gt;, &lt;font color=&quot;#c93500&quot;&gt;Actuators&lt;/font&gt;, &lt;font color=&quot;#c93500&quot;&gt;Samplers&lt;/font&gt;, and other &lt;font color=&quot;#c93500&quot;&gt;Platforms&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:23:42" modified="2019-07-17 11:52:29" complexity="1" status="Validated"/>
+				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:23:42" modified="2019-07-18 13:27:51" complexity="1" status="Validated"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -748,6 +818,7 @@
 					<Association xmi:id="EAID_1176947A_2110_43e4_BF64_6BE6FDD6C16D" start="EAID_843D0506_9A61_42df_B54D_5758FF244743" end="EAID_6F8294D5_36BB_4b31_8CD9_F32AB66DCA70"/>
 					<Association xmi:id="EAID_665772AD_0C5A_4124_B849_486EC8068C1A" start="EAID_843D0506_9A61_42df_B54D_5758FF244743" end="EAID_56F23C42_AB76_4ec7_A522_73F772B37DB7"/>
 					<Association xmi:id="EAID_099EAB5A_2CFF_4aa5_A9CB_B3C5D9ED4F69" start="EAID_D3113255_4CA4_4ecc_8C03_EB3BE4DC4057" end="EAID_843D0506_9A61_42df_B54D_5758FF244743"/>
+					<Association xmi:id="EAID_48C52A01_C998_4e13_A0FE_A681B0DBE421" start="EAID_81A6CD02_FCB4_4398_A3B0_4B20FA1303FE" end="EAID_843D0506_9A61_42df_B54D_5758FF244743"/>
 					<Association xmi:id="EAID_54D6D3F5_FDF6_47f8_BD12_B6613A92E92D" start="EAID_06DAF8FB_9AB7_4dc3_858B_0AF52CD806AA" end="EAID_843D0506_9A61_42df_B54D_5758FF244743"/>
 					<Association xmi:id="EAID_C21B2E0D_C840_4a2c_90A4_2CD8CD988C90" start="EAID_25C30B1D_DB66_4580_BBBE_65E386CBFE2F" end="EAID_843D0506_9A61_42df_B54D_5758FF244743"/>
 				</links>
@@ -763,13 +834,13 @@
 				<extendedProperties tagged="0" package_name="SOSA"/>
 				<packageproperties version="1.0"/>
 				<paths/>
-				<times created="2019-06-28 11:40:58" modified="2019-07-16 09:33:45" lastloaddate="2019-07-16 09:33:45" lastsavedate="2019-07-16 09:33:45"/>
+				<times created="2019-06-28 11:40:58" modified="2019-07-18 13:27:51" lastloaddate="2019-07-16 09:33:45" lastsavedate="2019-07-16 09:33:45"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
 			<element xmi:idref="EAID_0B116648_18CA_4ccb_8499_347F89F454DF" xmi:type="uml:Class" name="FeatureOfInterest" scope="public">
 				<model package="EAPK_D11008B2_DB8D_4a6e_B270_A408554CC15B" tpos="0" ea_localid="6" ea_eleType="element"/>
 				<properties documentation="The thing whose property is being estimated or calculated in the course of an &lt;font color=&quot;#c93500&quot;&gt;Observation &lt;/font&gt;to arrive at a &lt;font color=&quot;#c93500&quot;&gt;Result&lt;/font&gt;, or whose property is being manipulated by an &lt;font color=&quot;#c93500&quot;&gt;Actuator&lt;/font&gt;, or which is being sampled or transformed in an act of &lt;font color=&quot;#c93500&quot;&gt;Sampling&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 11:47:57" modified="2019-07-17 11:52:53" complexity="1" status="Validated"/>
+				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 11:47:57" modified="2019-07-18 13:27:51" complexity="1" status="Validated"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -867,7 +938,7 @@
 			<element xmi:idref="EAID_7DED4939_96F7_450d_B45B_02B64FB4FCC1" xmi:type="uml:Class" name="Sample" scope="public">
 				<model package="EAPK_D11008B2_DB8D_4a6e_B270_A408554CC15B" tpos="0" ea_localid="7" ea_eleType="element"/>
 				<properties documentation="Feature which is intended to be representative of a &lt;font color=&quot;#c93500&quot;&gt;FeatureOfInterest &lt;/font&gt;on which &lt;font color=&quot;#c93500&quot;&gt;Observations&lt;/font&gt; may be made." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:50:29" modified="2019-07-17 11:53:17" complexity="1" status="Validated"/>
+				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:50:29" modified="2019-07-18 13:27:51" complexity="1" status="Validated"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -946,13 +1017,13 @@
 				<extendedProperties tagged="0" package_name="SOSA"/>
 				<packageproperties version="1.0"/>
 				<paths/>
-				<times created="2019-06-28 11:41:06" modified="2019-07-16 09:33:45" lastloaddate="2019-07-16 09:33:45" lastsavedate="2019-07-16 09:33:45"/>
+				<times created="2019-06-28 11:41:06" modified="2019-07-18 13:27:51" lastloaddate="2019-07-16 09:33:45" lastsavedate="2019-07-16 09:33:45"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
 			<element xmi:idref="EAID_2963A965_B591_414f_8896_EB8C4A592A2B" xmi:type="uml:Class" name="ActuableProperty" scope="public">
 				<model package="EAPK_0CE12AAC_7607_426a_9328_99A550A91503" tpos="0" ea_localid="9" ea_eleType="element"/>
 				<properties documentation="An actuatable quality (property, characteristic) of a &lt;font color=&quot;#c93500&quot;&gt;FeatureOfInterest&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:43:15" modified="2019-07-17 11:54:06" complexity="1" status="Proposed"/>
+				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:43:15" modified="2019-07-18 13:27:51" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -998,7 +1069,7 @@
 			<element xmi:idref="EAID_2C623E52_2DD5_4ff4_8DDE_8A93C6713139" xmi:type="uml:Class" name="ObservableProperty" scope="public">
 				<model package="EAPK_0CE12AAC_7607_426a_9328_99A550A91503" tpos="0" ea_localid="10" ea_eleType="element"/>
 				<properties documentation="An observable quality (property, characteristic) of a &lt;font color=&quot;#c93500&quot;&gt;FeatureOfInterest&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-19 02:47:12" modified="2019-07-17 11:55:38" complexity="1" status="Validated"/>
+				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-19 02:47:12" modified="2019-07-18 13:27:51" complexity="1" status="Validated"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1045,7 +1116,7 @@
 			<element xmi:idref="EAID_6A4FEC17_8638_411c_9D5F_B1D58CA7B57C" xmi:type="uml:Class" name="Observation" scope="public">
 				<model package="EAPK_0CE12AAC_7607_426a_9328_99A550A91503" tpos="0" ea_localid="11" ea_eleType="element"/>
 				<properties documentation="Act of carrying out an (Observation) &lt;font color=&quot;#c93500&quot;&gt;Procedure &lt;/font&gt;to estimate or calculate a value of a property&#xA;of a &lt;font color=&quot;#c93500&quot;&gt;FeatureOfInterest&lt;/font&gt;. Links to a &lt;font color=&quot;#c93500&quot;&gt;Sensor &lt;/font&gt;to describe what made the &lt;font color=&quot;#c93500&quot;&gt;Observation &lt;/font&gt;and how; links to an&#xA;&lt;font color=&quot;#c93500&quot;&gt;ObservableProperty &lt;/font&gt;to describe what the result is an estimate of, and to a &lt;font color=&quot;#c93500&quot;&gt;FeatureOfInterest &lt;/font&gt;to detail&#xA;what that property was associated with." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-19 02:50:07" modified="2019-07-17 11:55:25" complexity="1" status="Validated"/>
+				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-19 02:50:07" modified="2019-07-18 13:27:51" complexity="1" status="Validated"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1289,7 +1360,7 @@
 			<element xmi:idref="EAID_22688109_9E54_4365_BA08_402321B01A6D" xmi:type="uml:Class" name="Property" scope="public">
 				<model package="EAPK_0CE12AAC_7607_426a_9328_99A550A91503" tpos="0" ea_localid="12" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 21:52:22" modified="2019-07-17 11:55:56" complexity="1" status="Proposed"/>
+				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 21:52:22" modified="2019-07-18 13:27:51" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1343,13 +1414,13 @@
 				<extendedProperties tagged="0" package_name="SOSA"/>
 				<packageproperties version="1.0"/>
 				<paths/>
-				<times created="2019-06-28 11:41:14" modified="2019-07-16 09:33:45" lastloaddate="2019-07-16 09:33:45" lastsavedate="2019-07-16 09:33:45"/>
+				<times created="2019-06-28 11:41:14" modified="2019-07-18 13:27:51" lastloaddate="2019-07-16 09:33:45" lastsavedate="2019-07-16 09:33:45"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
 			<element xmi:idref="EAID_7E5AE506_10E7_4ea9_91B5_01E7674B8750" xmi:type="uml:Class" name="Actuation" scope="public">
 				<model package="EAPK_2EB7DCBC_CB4C_4899_AE38_D5F5F73FA0DD" tpos="0" ea_localid="14" ea_eleType="element"/>
 				<properties documentation="An Actuation carries out an (Actuation) Procedure to change the state of the world using an Actuator." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:44:38" modified="2019-07-17 11:54:20" complexity="1" status="Validated"/>
+				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:44:38" modified="2019-07-18 13:27:51" complexity="1" status="Validated"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1543,7 +1614,7 @@
 			<element xmi:idref="EAID_3CBF0374_C199_4611_B273_335217DAA5D3" xmi:type="uml:Class" name="Procedure" scope="public">
 				<model package="EAPK_2EB7DCBC_CB4C_4899_AE38_D5F5F73FA0DD" tpos="0" ea_localid="15" ea_eleType="element"/>
 				<properties documentation="A workflow, protocol, plan, algorithm, or computational method specifying how to make an &lt;font color=&quot;#c93500&quot;&gt;Observation&lt;/font&gt;, create a &lt;font color=&quot;#c93500&quot;&gt;Sample&lt;/font&gt;, or make a change to the state of the world (via an &lt;font color=&quot;#c93500&quot;&gt;Actuator&lt;/font&gt;). A &lt;font color=&quot;#c93500&quot;&gt;Procedure&lt;/font&gt; is reusable, and might be involved in many &lt;font color=&quot;#c93500&quot;&gt;Observations&lt;/font&gt;, &lt;font color=&quot;#c93500&quot;&gt;Samplings&lt;/font&gt;, or &lt;font color=&quot;#c93500&quot;&gt;Actuations&lt;/font&gt;. It explains the steps to be carried out to arrive at reproducible &lt;font color=&quot;#c93500&quot;&gt;Results&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:21:57" modified="2019-07-17 11:53:38" complexity="1" status="Validated"/>
+				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:21:57" modified="2019-07-18 13:27:51" complexity="1" status="Validated"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1633,14 +1704,16 @@
 					<Association xmi:id="EAID_DFB8B6B3_0A37_4643_B733_0DB0A228B116" start="EAID_3CBF0374_C199_4611_B273_335217DAA5D3" end="EAID_7A57097F_BDB2_4e54_9380_BCC3FC98E2A1"/>
 					<Association xmi:id="EAID_2D88BA21_5D61_481a_B36A_4AF8FB5B2A7F" start="EAID_7E5AE506_10E7_4ea9_91B5_01E7674B8750" end="EAID_3CBF0374_C199_4611_B273_335217DAA5D3"/>
 					<Association xmi:id="EAID_6F13B576_5E8A_44da_B496_5135F578D35F" start="EAID_56F23C42_AB76_4ec7_A522_73F772B37DB7" end="EAID_3CBF0374_C199_4611_B273_335217DAA5D3"/>
+					<Association xmi:id="EAID_ADA9BA84_8E78_4e10_9429_F67307766599" start="EAID_A1A71A90_C0BA_4599_A383_C848C0C99C9B" end="EAID_3CBF0374_C199_4611_B273_335217DAA5D3"/>
 					<Association xmi:id="EAID_B7F44359_AEE8_490c_A55F_526E1DDE9A6F" start="EAID_6A4FEC17_8638_411c_9D5F_B1D58CA7B57C" end="EAID_3CBF0374_C199_4611_B273_335217DAA5D3"/>
+					<Association xmi:id="EAID_BFE8C4D8_449B_4894_94C4_E88293135C30" start="EAID_1C88C9FE_B630_4d1e_BB15_CF532C9EC505" end="EAID_3CBF0374_C199_4611_B273_335217DAA5D3"/>
 					<Association xmi:id="EAID_F888E08F_FC42_4bc0_88DD_0EBE0F29FF65" start="EAID_EA9649F0_C715_4d2d_80B4_FD95A94E548C" end="EAID_3CBF0374_C199_4611_B273_335217DAA5D3"/>
 				</links>
 			</element>
 			<element xmi:idref="EAID_EA9649F0_C715_4d2d_80B4_FD95A94E548C" xmi:type="uml:Class" name="Sampling" scope="public">
 				<model package="EAPK_2EB7DCBC_CB4C_4899_AE38_D5F5F73FA0DD" tpos="0" ea_localid="16" ea_eleType="element"/>
 				<properties documentation="An act of &lt;font color=&quot;#c93500&quot;&gt;Sampling &lt;/font&gt;carries out a (Sampling) &lt;font color=&quot;#c93500&quot;&gt;Procedure &lt;/font&gt;to create or transform one or more &lt;font color=&quot;#c93500&quot;&gt;Samples&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:51:56" modified="2019-07-17 11:56:44" complexity="1" status="Validated"/>
+				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:51:56" modified="2019-07-18 13:27:51" complexity="1" status="Validated"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1792,13 +1865,13 @@
 				<extendedProperties tagged="0" package_name="SOSA"/>
 				<packageproperties version="1.0"/>
 				<paths/>
-				<times created="2019-06-28 11:41:21" modified="2019-07-16 09:33:45" lastloaddate="2019-07-16 09:33:45" lastsavedate="2019-07-16 09:33:45"/>
+				<times created="2019-06-28 11:41:21" modified="2019-07-18 13:27:51" lastloaddate="2019-07-16 09:33:45" lastsavedate="2019-07-16 09:33:45"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
 			<element xmi:idref="EAID_3FFDB5DD_538E_42a1_9235_09EC4EB3F52B" xmi:type="uml:Class" name="DateTime" scope="public">
 				<model package="EAPK_EBC4CCC8_6405_4689_B67D_5E15D1E06C82" tpos="0" ea_localid="18" ea_eleType="element"/>
 				<properties documentation="XML Schema: dateTime values may be viewed as objects with integer-valued year, month, day, hour and minute properties, a decimal-valued second property, and a boolean timezoned property." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:15:32" modified="2019-07-17 11:54:33" complexity="1" status="Proposed"/>
+				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:15:32" modified="2019-07-18 13:27:51" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1818,7 +1891,7 @@
 			<element xmi:idref="EAID_B8F3487A_2929_4a9f_8FD1_9A23FA32464F" xmi:type="uml:Class" name="Literal" scope="public">
 				<model package="EAPK_EBC4CCC8_6405_4689_B67D_5E15D1E06C82" tpos="0" ea_localid="19" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:15:11" modified="2019-07-17 11:54:48" complexity="1" status="Proposed"/>
+				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:15:11" modified="2019-07-18 13:27:51" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1837,7 +1910,7 @@
 			<element xmi:idref="EAID_88468225_0557_4e10_8683_47260CB2477F" xmi:type="uml:Class" name="Result" scope="public">
 				<model package="EAPK_EBC4CCC8_6405_4689_B67D_5E15D1E06C82" tpos="0" ea_localid="20" ea_eleType="element"/>
 				<properties documentation="The &lt;font color=&quot;#c93500&quot;&gt;Result &lt;/font&gt;of an &lt;font color=&quot;#c93500&quot;&gt;Observation&lt;/font&gt;, &lt;font color=&quot;#c93500&quot;&gt;Actuation&lt;/font&gt;, or act of &lt;font color=&quot;#c93500&quot;&gt;Sampling&lt;/font&gt;. To store an observation's simple result value one can use the &lt;font color=&quot;#c93500&quot;&gt;hasSimpleResult &lt;/font&gt;property." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:14:45" modified="2019-07-17 11:53:05" complexity="1" status="Proposed"/>
+				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:14:45" modified="2019-07-18 13:27:51" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1875,6 +1948,7 @@
 					</attribute>
 				</attributes>
 				<links>
+					<Association xmi:id="EAID_6D7EAF57_1637_4d3b_A940_E963A8A81098" start="EAID_88468225_0557_4e10_8683_47260CB2477F" end="EAID_835B25CC_F30D_4c70_95DC_EAFBBCA77BAE"/>
 					<Generalization xmi:id="EAID_2A32CE70_3565_4582_9AAA_84B4E41362B0" start="EAID_7DED4939_96F7_450d_B45B_02B64FB4FCC1" end="EAID_88468225_0557_4e10_8683_47260CB2477F"/>
 					<Association xmi:id="EAID_3B827F38_9F22_4d86_AD8A_8C7D47C8CF9D" start="EAID_7E5AE506_10E7_4ea9_91B5_01E7674B8750" end="EAID_88468225_0557_4e10_8683_47260CB2477F"/>
 					<Association xmi:id="EAID_487C5965_2F9A_4862_8EBC_BF8272E68C2C" start="EAID_6A4FEC17_8638_411c_9D5F_B1D58CA7B57C" end="EAID_88468225_0557_4e10_8683_47260CB2477F"/>
@@ -1883,7 +1957,7 @@
 			<element xmi:idref="EAID_3613834A_6834_47c7_BE44_1D2E679C9D98" xmi:type="uml:Class" name="TemporalEntity" scope="public">
 				<model package="EAPK_EBC4CCC8_6405_4689_B67D_5E15D1E06C82" tpos="0" ea_localid="21" ea_eleType="element"/>
 				<properties documentation="OWL: A temporal interval or instant. " isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:15:44" modified="2019-07-17 11:57:28" complexity="1" status="Proposed"/>
+				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:15:44" modified="2019-07-18 13:27:51" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1909,13 +1983,13 @@
 				<extendedProperties tagged="0" package_name="SOSA"/>
 				<packageproperties version="1.0"/>
 				<paths/>
-				<times created="2019-06-28 11:41:35" modified="2019-07-16 09:33:45" lastloaddate="2019-07-16 09:33:45" lastsavedate="2019-07-16 09:33:45"/>
+				<times created="2019-06-28 11:41:35" modified="2019-07-18 13:27:51" lastloaddate="2019-07-16 09:33:45" lastsavedate="2019-07-16 09:33:45"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
 			<element xmi:idref="EAID_25C30B1D_DB66_4580_BBBE_65E386CBFE2F" xmi:type="uml:Class" name="Actuator" scope="public">
 				<model package="EAPK_69BDC431_BBBF_4934_B289_8A26D324706F" tpos="0" ea_localid="23" ea_eleType="element"/>
 				<properties documentation="A device that is used by, or implements, an (Actuation) &lt;font color=&quot;#c93500&quot;&gt;Procedure &lt;/font&gt;that changes the state of the world." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:46:18" modified="2019-07-17 11:53:50" complexity="1" status="Validated"/>
+				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:46:18" modified="2019-07-18 13:27:51" complexity="1" status="Validated"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2004,13 +2078,14 @@
 					<Association xmi:id="EAID_855BBB5D_92EC_4e4b_9013_8E0F58B4181E" start="EAID_25C30B1D_DB66_4580_BBBE_65E386CBFE2F" end="EAID_2963A965_B591_414f_8896_EB8C4A592A2B"/>
 					<Association xmi:id="EAID_C21B2E0D_C840_4a2c_90A4_2CD8CD988C90" start="EAID_25C30B1D_DB66_4580_BBBE_65E386CBFE2F" end="EAID_843D0506_9A61_42df_B54D_5758FF244743"/>
 					<Generalization xmi:id="EAID_FB568435_F811_4e29_BED3_E6942BF3F5EC" start="EAID_25C30B1D_DB66_4580_BBBE_65E386CBFE2F" end="EAID_56F23C42_AB76_4ec7_A522_73F772B37DB7"/>
+					<Association xmi:id="EAID_126D7ED0_AF6C_4753_B1A7_5A7AD0DC1BC7" start="EAID_81A6CD02_FCB4_4398_A3B0_4B20FA1303FE" end="EAID_25C30B1D_DB66_4580_BBBE_65E386CBFE2F"/>
 					<Association xmi:id="EAID_FBC6CAF7_C9BD_4287_BDD5_9B0A79B95557" start="EAID_7E5AE506_10E7_4ea9_91B5_01E7674B8750" end="EAID_25C30B1D_DB66_4580_BBBE_65E386CBFE2F"/>
 				</links>
 			</element>
 			<element xmi:idref="EAID_06DAF8FB_9AB7_4dc3_858B_0AF52CD806AA" xmi:type="uml:Class" name="Sampler" scope="public">
 				<model package="EAPK_69BDC431_BBBF_4934_B289_8A26D324706F" tpos="0" ea_localid="24" ea_eleType="element"/>
 				<properties documentation="A device that is used by, or implements, a (Sampling) &lt;font color=&quot;#c93500&quot;&gt;Procedure &lt;/font&gt;to create or transform one or more samples." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:53:46" modified="2019-07-17 11:57:04" complexity="1" status="Validated"/>
+				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 12:53:46" modified="2019-07-18 13:27:51" complexity="1" status="Validated"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2074,13 +2149,14 @@
 				<links>
 					<Generalization xmi:id="EAID_15E85DD3_0680_4e43_8E4C_7FFFBAA420BF" start="EAID_06DAF8FB_9AB7_4dc3_858B_0AF52CD806AA" end="EAID_56F23C42_AB76_4ec7_A522_73F772B37DB7"/>
 					<Association xmi:id="EAID_54D6D3F5_FDF6_47f8_BD12_B6613A92E92D" start="EAID_06DAF8FB_9AB7_4dc3_858B_0AF52CD806AA" end="EAID_843D0506_9A61_42df_B54D_5758FF244743"/>
+					<Association xmi:id="EAID_D04CDDB5_5867_41c2_886F_54E975949083" start="EAID_81A6CD02_FCB4_4398_A3B0_4B20FA1303FE" end="EAID_06DAF8FB_9AB7_4dc3_858B_0AF52CD806AA"/>
 					<Association xmi:id="EAID_E1B9FCDC_E03A_4391_959B_B6C0655F7B1B" start="EAID_EA9649F0_C715_4d2d_80B4_FD95A94E548C" end="EAID_06DAF8FB_9AB7_4dc3_858B_0AF52CD806AA"/>
 				</links>
 			</element>
 			<element xmi:idref="EAID_6F8294D5_36BB_4b31_8CD9_F32AB66DCA70" xmi:type="uml:Class" name="Sensor" scope="public">
 				<model package="EAPK_69BDC431_BBBF_4934_B289_8A26D324706F" tpos="0" ea_localid="25" ea_eleType="element"/>
 				<properties documentation="Device agent (including humans), or software (simulation) involved in, or implementing, a&#xA;&lt;font color=&quot;#c93500&quot;&gt;Procedure&lt;/font&gt;. &lt;font color=&quot;#c93500&quot;&gt;Sensors &lt;/font&gt;respond to a &lt;font color=&quot;#c93500&quot;&gt;Stimulus&lt;/font&gt;, e.g., a change in the environment, or &lt;font color=&quot;#c93500&quot;&gt;Input &lt;/font&gt;data composed&#xA;from the &lt;font color=&quot;#c93500&quot;&gt;Results &lt;/font&gt;of prior &lt;font color=&quot;#c93500&quot;&gt;Observations&lt;/font&gt;, and generate a &lt;font color=&quot;#c93500&quot;&gt;Result&lt;/font&gt;. &lt;font color=&quot;#c93500&quot;&gt;Sensors &lt;/font&gt;can be mounted on &lt;font color=&quot;#c93500&quot;&gt;Platforms&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-19 02:52:22" modified="2019-07-17 11:55:13" complexity="1" status="Validated"/>
+				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-19 02:52:22" modified="2019-07-18 13:27:51" complexity="1" status="Validated"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2194,6 +2270,7 @@
 					<Association xmi:id="EAID_B867A818_DC6C_413b_AD43_5AE59DCB9469" start="EAID_6F8294D5_36BB_4b31_8CD9_F32AB66DCA70" end="EAID_AA2D21A5_26C5_4158_BB9E_B19357564F3A"/>
 					<Generalization xmi:id="EAID_D9E9E158_75F9_4425_8208_7CFC1F61E939" start="EAID_6F8294D5_36BB_4b31_8CD9_F32AB66DCA70" end="EAID_56F23C42_AB76_4ec7_A522_73F772B37DB7"/>
 					<Association xmi:id="EAID_1176947A_2110_43e4_BF64_6BE6FDD6C16D" start="EAID_843D0506_9A61_42df_B54D_5758FF244743" end="EAID_6F8294D5_36BB_4b31_8CD9_F32AB66DCA70"/>
+					<Association xmi:id="EAID_2276E838_6D7A_42f7_8827_5212CA6A2F6A" start="EAID_81A6CD02_FCB4_4398_A3B0_4B20FA1303FE" end="EAID_6F8294D5_36BB_4b31_8CD9_F32AB66DCA70"/>
 					<Association xmi:id="EAID_C9D76026_AB0A_4045_9104_D4DD65E940A7" start="EAID_2C623E52_2DD5_4ff4_8DDE_8A93C6713139" end="EAID_6F8294D5_36BB_4b31_8CD9_F32AB66DCA70"/>
 				</links>
 			</element>
@@ -2208,7 +2285,7 @@
 				<extendedProperties tagged="0" package_name="SOSA"/>
 				<packageproperties version="1.0"/>
 				<paths/>
-				<times created="2019-06-28 11:41:43" modified="2019-07-16 09:33:46" lastloaddate="2019-07-16 09:33:45" lastsavedate="2019-07-16 09:33:45"/>
+				<times created="2019-06-28 11:41:43" modified="2019-07-18 13:27:51" lastloaddate="2019-07-16 09:33:45" lastsavedate="2019-07-16 09:33:45"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
 		</elements>
@@ -2313,6 +2390,41 @@
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
 				<labels lt="+inDeployment" rt="+deployedOnPlatform"/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_48C52A01_C998_4e13_A0FE_A681B0DBE421">
+				<source xmi:idref="EAID_81A6CD02_FCB4_4398_A3B0_4B20FA1303FE">
+					<model ea_localid="1068" type="Class" name="Physical Component"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_843D0506_9A61_42df_B54D_5758FF244743">
+					<model ea_localid="4" type="Class" name="Platform"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="1840"/>
+				<properties ea_type="Association" direction="Unspecified"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -3377,7 +3489,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_48494FEA_391B_4297_9FF9_C174021D2CBF">
-					<model ea_localid="38" type="Class" name="Input"/>
+					<model ea_localid="37" type="Class" name="Input"/>
 					<role name="hasInput" visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3387,7 +3499,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="76"/>
+				<model ea_localid="77"/>
 				<properties ea_type="Association" direction="Source -&gt; Destination"/>
 				<modifiers isRoot="false" isLeaf="false"/>
 				<parameterSubstitutions/>
@@ -3412,7 +3524,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_7A57097F_BDB2_4e54_9380_BCC3FC98E2A1">
-					<model ea_localid="37" type="Class" name="Output"/>
+					<model ea_localid="38" type="Class" name="Output"/>
 					<role name="hasOutput" visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3422,7 +3534,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="77"/>
+				<model ea_localid="76"/>
 				<properties ea_type="Association" direction="Source -&gt; Destination"/>
 				<modifiers isRoot="false" isLeaf="false"/>
 				<parameterSubstitutions/>
@@ -3464,6 +3576,76 @@
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
 				<labels lt="+impementedBy" rt="+implements"/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_ADA9BA84_8E78_4e10_9429_F67307766599">
+				<source xmi:idref="EAID_A1A71A90_C0BA_4599_A383_C848C0C99C9B">
+					<model ea_localid="1065" type="Class" name="Aggregate Process"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_3CBF0374_C199_4611_B273_335217DAA5D3">
+					<model ea_localid="15" type="Class" name="Procedure"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="1836"/>
+				<properties ea_type="Association" direction="Unspecified"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_BFE8C4D8_449B_4894_94C4_E88293135C30">
+				<source xmi:idref="EAID_1C88C9FE_B630_4d1e_BB15_CF532C9EC505">
+					<model ea_localid="1066" type="Class" name="Simple Process"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_3CBF0374_C199_4611_B273_335217DAA5D3">
+					<model ea_localid="15" type="Class" name="Procedure"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="1835"/>
+				<properties ea_type="Association" direction="Unspecified"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -3574,6 +3756,41 @@
 				<xrefs/>
 				<tags/>
 			</connector>
+			<connector xmi:idref="EAID_6D7EAF57_1637_4d3b_A940_E963A8A81098">
+				<source xmi:idref="EAID_88468225_0557_4e10_8683_47260CB2477F">
+					<model ea_localid="20" type="Class" name="Result"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_835B25CC_F30D_4c70_95DC_EAFBBCA77BAE">
+					<model ea_localid="669" type="Class" name="Measure"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="1387"/>
+				<properties ea_type="Association" direction="Unspecified"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
 			<connector xmi:idref="EAID_FB568435_F811_4e29_BED3_E6942BF3F5EC">
 				<source xmi:idref="EAID_25C30B1D_DB66_4580_BBBE_65E386CBFE2F">
 					<model ea_localid="23" type="Class" name="Actuator"/>
@@ -3608,6 +3825,41 @@
 				<xrefs/>
 				<tags/>
 			</connector>
+			<connector xmi:idref="EAID_126D7ED0_AF6C_4753_B1A7_5A7AD0DC1BC7">
+				<source xmi:idref="EAID_81A6CD02_FCB4_4398_A3B0_4B20FA1303FE">
+					<model ea_localid="1068" type="Class" name="Physical Component"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_25C30B1D_DB66_4580_BBBE_65E386CBFE2F">
+					<model ea_localid="23" type="Class" name="Actuator"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="1839"/>
+				<properties ea_type="Association" direction="Unspecified"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
 			<connector xmi:idref="EAID_15E85DD3_0680_4e43_8E4C_7FFFBAA420BF">
 				<source xmi:idref="EAID_06DAF8FB_9AB7_4dc3_858B_0AF52CD806AA">
 					<model ea_localid="24" type="Class" name="Sampler"/>
@@ -3633,6 +3885,41 @@
 				</target>
 				<model ea_localid="75"/>
 				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_D04CDDB5_5867_41c2_886F_54E975949083">
+				<source xmi:idref="EAID_81A6CD02_FCB4_4398_A3B0_4B20FA1303FE">
+					<model ea_localid="1068" type="Class" name="Physical Component"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_06DAF8FB_9AB7_4dc3_858B_0AF52CD806AA">
+					<model ea_localid="24" type="Class" name="Sampler"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="1838"/>
+				<properties ea_type="Association" direction="Unspecified"/>
+				<modifiers isRoot="false" isLeaf="false"/>
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
@@ -3702,6 +3989,41 @@
 				</target>
 				<model ea_localid="74"/>
 				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_2276E838_6D7A_42f7_8827_5212CA6A2F6A">
+				<source xmi:idref="EAID_81A6CD02_FCB4_4398_A3B0_4B20FA1303FE">
+					<model ea_localid="1068" type="Class" name="Physical Component"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_6F8294D5_36BB_4b31_8CD9_F32AB66DCA70">
+					<model ea_localid="25" type="Class" name="Sensor"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="1837"/>
+				<properties ea_type="Association" direction="Unspecified"/>
+				<modifiers isRoot="false" isLeaf="false"/>
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
@@ -4054,7 +4376,7 @@
 				<properties name="SOSA" type="Logical"/>
 				<project author="cmheazel" version="1.0" created="2019-06-28 11:36:04" modified="2019-06-28 11:36:04"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=811;DocSize.cy=1059;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="SaveTag=541454B5;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=0;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<style2 value="SaveTag=AF738C2B;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=0;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -4064,7 +4386,7 @@
 				<properties name="Deployment" type="Logical"/>
 				<project author="cmheazel" version="1.0" created="2019-06-28 12:23:38" modified="2019-06-28 21:45:41"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=811;DocSize.cy=1059;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="SaveTag=D4F54242;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<style2 value="SaveTag=A9D4D2A7;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -4083,7 +4405,7 @@
 				<properties name="Feature" type="Logical"/>
 				<project author="cmheazel" version="1.0" created="2019-06-28 11:47:01" modified="2019-07-03 08:10:16"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=811;DocSize.cy=1059;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="SaveTag=5B2AC0F7;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<style2 value="SaveTag=523740D8;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -4101,7 +4423,7 @@
 				<properties name="Observation" type="Logical"/>
 				<project author="cmheazel" version="1.0" created="2019-06-28 11:44:17" modified="2019-06-28 21:47:53"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=811;DocSize.cy=1059;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="SaveTag=B5C796DF;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<style2 value="SaveTag=431C8095;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -4121,7 +4443,7 @@
 				<properties name="Actuation" type="Logical"/>
 				<project author="cmheazel" version="1.0" created="2019-06-28 20:52:46" modified="2019-07-17 11:56:09"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=811;DocSize.cy=1059;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=7EC4F9D4;"/>
+				<style2 value="SaveTag=EA463E3A;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -4149,7 +4471,7 @@
 				<properties name="Property" type="Logical"/>
 				<project author="cmheazel" version="1.0" created="2019-06-28 21:52:12" modified="2019-06-28 21:55:18"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=811;DocSize.cy=1059;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="SaveTag=10FB26A8;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<style2 value="SaveTag=FF82230C;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -4168,7 +4490,7 @@
 				<properties name="Procedure" type="Logical"/>
 				<project author="cmheazel" version="1.0" created="2019-06-28 12:21:54" modified="2019-06-28 21:59:00"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=811;DocSize.cy=1059;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="SaveTag=6C6CEE34;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<style2 value="SaveTag=745F71E2;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -4187,7 +4509,7 @@
 				<properties name="Actuation" type="Logical"/>
 				<project author="cmheazel" version="1.0" created="2019-06-28 20:56:43" modified="2019-06-28 21:21:39"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=811;DocSize.cy=1059;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="SaveTag=71CFE41D;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<style2 value="SaveTag=D3EC6DB3;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -4213,7 +4535,7 @@
 				<properties name="Sampling" type="Logical"/>
 				<project author="cmheazel" version="1.0" created="2019-06-28 21:24:11" modified="2019-07-03 13:44:44"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=811;DocSize.cy=1059;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="SaveTag=D86B5A03;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<style2 value="SaveTag=A05FCA80;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -4240,7 +4562,7 @@
 				<properties name="Result" type="Logical"/>
 				<project author="cmheazel" version="1.0" created="2019-06-28 12:14:40" modified="2019-07-03 08:05:14"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=811;DocSize.cy=1059;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="SaveTag=D72E7270;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<style2 value="SaveTag=B3AE5AC6;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -4261,7 +4583,7 @@
 				<properties name="System" type="Logical"/>
 				<project author="cmheazel" version="1.0" created="2019-06-28 12:46:15" modified="2019-07-03 13:24:27"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=811;DocSize.cy=1059;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="SaveTag=B4368473;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<style2 value="SaveTag=25452194;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -4276,7 +4598,7 @@
 				<properties name="Actuator" type="Logical"/>
 				<project author="cmheazel" version="1.0" created="2019-06-28 21:05:57" modified="2019-06-28 21:59:14"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=811;DocSize.cy=1059;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="SaveTag=27A64CE7;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<style2 value="SaveTag=C93B486A;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -4296,7 +4618,7 @@
 				<properties name="Sampler" type="Logical"/>
 				<project author="cmheazel" version="1.0" created="2019-06-28 21:22:10" modified="2019-06-28 22:00:17"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=811;DocSize.cy=1059;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="SaveTag=85EA25D1;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<style2 value="SaveTag=F2613571;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>

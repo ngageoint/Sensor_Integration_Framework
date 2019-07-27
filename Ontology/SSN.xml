@@ -230,6 +230,16 @@
 						<type xmi:idref="EAID_56F23C42_AB76_4ec7_A522_73F772B37DB7"/>
 					</ownedEnd>
 				</packagedElement>
+				<packagedElement xmi:type="uml:Association" xmi:id="EAID_20012310_FB0D_46a6_8FE3_7E5FC0F65A41" visibility="public">
+					<memberEnd xmi:idref="EAID_dst012310_FB0D_46a6_8FE3_7E5FC0F65A41"/>
+					<memberEnd xmi:idref="EAID_src012310_FB0D_46a6_8FE3_7E5FC0F65A41"/>
+					<ownedEnd xmi:type="uml:Property" xmi:id="EAID_src012310_FB0D_46a6_8FE3_7E5FC0F65A41" visibility="public" association="EAID_20012310_FB0D_46a6_8FE3_7E5FC0F65A41" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+						<type xmi:idref="EAID_BB94C7A0_BC1E_4451_96B7_5289FF3CFBD6"/>
+					</ownedEnd>
+					<ownedEnd xmi:type="uml:Property" xmi:id="EAID_dst012310_FB0D_46a6_8FE3_7E5FC0F65A41" visibility="public" association="EAID_20012310_FB0D_46a6_8FE3_7E5FC0F65A41" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false" aggregation="none">
+						<type xmi:idref="EAID_56F23C42_AB76_4ec7_A522_73F772B37DB7"/>
+					</ownedEnd>
+				</packagedElement>
 				<packagedElement xmi:type="uml:Association" xmi:id="EAID_665772AD_0C5A_4124_B849_486EC8068C1A" visibility="public">
 					<memberEnd xmi:idref="EAID_dst5772AD_0C5A_4124_B849_486EC8068C1A"/>
 					<memberEnd xmi:idref="EAID_src5772AD_0C5A_4124_B849_486EC8068C1A"/>
@@ -461,7 +471,7 @@
 	<xmi:Extension extender="Enterprise Architect" extenderID="6.5">
 		<elements>
 			<element xmi:idref="EAPK_E46483D8_D986_4915_B53E_968DB6A4326E" xmi:type="uml:Package" name="SSN" scope="public">
-				<model package2="EAID_E46483D8_D986_4915_B53E_968DB6A4326E" package="EAPK_4D801F95_8F69_4905_BCB5_3D0C2FA1D49A" tpos="0" ea_localid="11" ea_eleType="package"/>
+				<model package2="EAID_E46483D8_D986_4915_B53E_968DB6A4326E" package="EAPK_FEB95A40_E0E0_41ea_A832_4693DDEA5E62" tpos="0" ea_localid="11" ea_eleType="package"/>
 				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
 				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-19 02:45:17" modified="2019-06-19 02:45:17" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
@@ -471,7 +481,7 @@
 				<extendedProperties tagged="0" package_name="Model"/>
 				<packageproperties version="1.0"/>
 				<paths/>
-				<times created="2019-06-19 02:45:17" modified="2019-07-16 09:34:19" lastloaddate="2019-07-16 09:34:19" lastsavedate="2019-07-16 09:34:19"/>
+				<times created="2019-06-19 02:45:17" modified="2019-07-18 13:28:13" lastloaddate="2019-07-16 09:34:19" lastsavedate="2019-07-16 09:34:19"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE" packageFlags="isModel=1;VICON=3;"/>
 			</element>
 			<element xmi:idref="EAPK_FC97795A_B623_4b37_B1D6_F34DEAB6BC79" xmi:type="uml:Package" name="Condition" scope="public">
@@ -485,13 +495,13 @@
 				<extendedProperties tagged="0" package_name="SSN"/>
 				<packageproperties version="1.0"/>
 				<paths/>
-				<times created="2019-06-28 11:38:36" modified="2019-07-16 09:34:19" lastloaddate="2019-07-16 09:34:19" lastsavedate="2019-07-16 09:34:19"/>
+				<times created="2019-06-28 11:38:36" modified="2019-07-18 13:28:13" lastloaddate="2019-07-16 09:34:19" lastsavedate="2019-07-16 09:34:19"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
 			<element xmi:idref="EAID_3042939B_2A2B_474f_8055_24A49034B1E7" xmi:type="uml:Class" name="Condition" scope="public">
 				<model package="EAPK_FC97795A_B623_4b37_B1D6_F34DEAB6BC79" tpos="0" ea_localid="29" ea_eleType="element"/>
 				<properties documentation="Used to specify ranges for qualities that act as &lt;font color=&quot;#c93500&quot;&gt;Conditions &lt;/font&gt;on a Systems' operation." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:23:45" modified="2019-07-17 11:58:15" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:23:45" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -520,13 +530,13 @@
 				<extendedProperties tagged="0" package_name="SSN"/>
 				<packageproperties version="1.0"/>
 				<paths/>
-				<times created="2019-06-28 11:37:46" modified="2019-07-16 09:34:19" lastloaddate="2019-07-16 09:34:19" lastsavedate="2019-07-16 09:34:19"/>
+				<times created="2019-06-28 11:37:46" modified="2019-07-18 13:28:13" lastloaddate="2019-07-16 09:34:19" lastsavedate="2019-07-16 09:34:19"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
 			<element xmi:idref="EAID_D3113255_4CA4_4ecc_8C03_EB3BE4DC4057" xmi:type="uml:Class" name="Deployment" scope="public">
 				<model package="EAPK_FFC9C4FB_462E_4521_BBB2_77476331BE15" tpos="0" ea_localid="31" ea_eleType="element"/>
 				<properties documentation="Describes the &lt;font color=&quot;#c93500&quot;&gt;Deployment &lt;/font&gt;of one or more &lt;font color=&quot;#c93500&quot;&gt;Systems &lt;/font&gt;for a particular purpose. &lt;font color=&quot;#c93500&quot;&gt;Deployment &lt;/font&gt;may be done on a &lt;font color=&quot;#c93500&quot;&gt;Platform&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:23:12" modified="2019-07-17 11:59:18" complexity="1" status="Validated"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:23:12" modified="2019-07-18 13:28:13" complexity="1" status="Validated"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -628,13 +638,13 @@
 				<extendedProperties tagged="0" package_name="SSN"/>
 				<packageproperties version="1.0"/>
 				<paths/>
-				<times created="2019-06-28 11:39:26" modified="2019-07-16 09:34:19" lastloaddate="2019-07-16 09:34:19" lastsavedate="2019-07-16 09:34:19"/>
+				<times created="2019-06-28 11:39:26" modified="2019-07-18 13:28:13" lastloaddate="2019-07-16 09:34:19" lastsavedate="2019-07-16 09:34:19"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
 			<element xmi:idref="EAID_DC18CA2E_03BC_409e_A0E1_537CF344C426" xmi:type="uml:Class" name="Property" scope="public">
 				<model package="EAPK_30FE97D4_A345_4b89_87F7_F4887E6893C9" tpos="0" ea_localid="33" ea_eleType="element"/>
 				<properties documentation="A quality of an entity. An aspect of an entity that is intrinsic to and cannot exist without the entity." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:22:26" modified="2019-07-17 11:58:02" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:22:26" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -695,13 +705,13 @@
 				<extendedProperties tagged="0" package_name="SSN"/>
 				<packageproperties version="1.0"/>
 				<paths/>
-				<times created="2019-06-28 11:39:48" modified="2019-07-16 09:34:19" lastloaddate="2019-07-16 09:34:19" lastsavedate="2019-07-16 09:34:19"/>
+				<times created="2019-06-28 11:39:48" modified="2019-07-18 13:28:13" lastloaddate="2019-07-16 09:34:19" lastsavedate="2019-07-16 09:34:19"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
 			<element xmi:idref="EAID_AA2D21A5_26C5_4158_BB9E_B19357564F3A" xmi:type="uml:Class" name="Stimulus" scope="public">
 				<model package="EAPK_77C9290A_0531_4516_926F_6311DA513E8B" tpos="0" ea_localid="35" ea_eleType="element"/>
 				<properties documentation="An event in the real world that 'triggers' the &lt;font color=&quot;#c93500&quot;&gt;Sensor&lt;/font&gt;. The properties associated to the &lt;font color=&quot;#c93500&quot;&gt;Stimulus&lt;/font&gt; may be different to the eventual observed &lt;font color=&quot;#c93500&quot;&gt;ObservableProperty&lt;/font&gt;. It is the event, not the object, that triggers the &lt;font color=&quot;#c93500&quot;&gt;Sensor&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-19 02:54:05" modified="2019-07-17 11:59:56" complexity="1" status="Validated"/>
+				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-19 02:54:05" modified="2019-07-18 13:28:13" complexity="1" status="Validated"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -779,13 +789,13 @@
 				<extendedProperties tagged="0" package_name="SSN"/>
 				<packageproperties version="1.0"/>
 				<paths/>
-				<times created="2019-06-28 11:40:06" modified="2019-07-16 09:34:19" lastloaddate="2019-07-16 09:34:19" lastsavedate="2019-07-16 09:34:19"/>
+				<times created="2019-06-28 11:40:06" modified="2019-07-18 13:28:13" lastloaddate="2019-07-16 09:34:19" lastsavedate="2019-07-16 09:34:19"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
 			<element xmi:idref="EAID_48494FEA_391B_4297_9FF9_C174021D2CBF" xmi:type="uml:Class" name="Input" scope="public">
-				<model package="EAPK_DD4FABB9_E9FF_45a6_973C_094346EAB704" tpos="0" ea_localid="38" ea_eleType="element"/>
+				<model package="EAPK_DD4FABB9_E9FF_45a6_973C_094346EAB704" tpos="0" ea_localid="37" ea_eleType="element"/>
 				<properties documentation="Any information that is provided to a &lt;font color=&quot;#c93500&quot;&gt;Procedure &lt;/font&gt;for its use. [MMI OntDev]" isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:26:43" modified="2019-07-17 12:00:16" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:26:43" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -801,9 +811,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_7A57097F_BDB2_4e54_9380_BCC3FC98E2A1" xmi:type="uml:Class" name="Output" scope="public">
-				<model package="EAPK_DD4FABB9_E9FF_45a6_973C_094346EAB704" tpos="0" ea_localid="37" ea_eleType="element"/>
+				<model package="EAPK_DD4FABB9_E9FF_45a6_973C_094346EAB704" tpos="0" ea_localid="38" ea_eleType="element"/>
 				<properties documentation="Any information that is reported from a &lt;font color=&quot;#c93500&quot;&gt;Procedure&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:27:00" modified="2019-07-17 12:00:27" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:27:00" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -829,7 +839,7 @@
 				<extendedProperties tagged="0" package_name="SSN"/>
 				<packageproperties version="1.0"/>
 				<paths/>
-				<times created="2019-06-28 11:40:14" modified="2019-07-16 09:34:19" lastloaddate="2019-07-16 09:34:19" lastsavedate="2019-07-16 09:34:19"/>
+				<times created="2019-06-28 11:40:14" modified="2019-07-18 13:28:13" lastloaddate="2019-07-16 09:34:19" lastsavedate="2019-07-16 09:34:19"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
 			<element xmi:idref="EAPK_AB32A300_0FA1_4e6c_997A_D1E05A6CA96F" xmi:type="uml:Package" name="System" scope="public">
@@ -843,13 +853,13 @@
 				<extendedProperties tagged="0" package_name="SSN"/>
 				<packageproperties version="1.0"/>
 				<paths/>
-				<times created="2019-06-28 11:37:59" modified="2019-07-16 09:34:19" lastloaddate="2019-07-16 09:34:19" lastsavedate="2019-07-16 09:34:19"/>
+				<times created="2019-06-28 11:37:59" modified="2019-07-18 13:28:13" lastloaddate="2019-07-16 09:34:19" lastsavedate="2019-07-16 09:34:19"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
 			<element xmi:idref="EAID_56F23C42_AB76_4ec7_A522_73F772B37DB7" xmi:type="uml:Class" name="System" scope="public">
 				<model package="EAPK_AB32A300_0FA1_4e6c_997A_D1E05A6CA96F" tpos="0" ea_localid="41" ea_eleType="element"/>
 				<properties documentation="System is a unit of abstraction for pieces of infrastructure that implement &lt;font color=&quot;#c93500&quot;&gt;Procedures&lt;/font&gt;. A System may have components, its subsystems, which are other Systems." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 21:49:11" modified="2019-07-17 11:59:31" complexity="1" status="Validated"/>
+				<project author="cmheazel" version="1.0" phase="1.0" created="2019-06-28 21:49:11" modified="2019-07-18 13:28:13" complexity="1" status="Validated"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1039,6 +1049,7 @@
 					<Association xmi:id="EAID_FEBF497B_DB80_431d_81D3_4752FB69FEA6" start="EAID_56F23C42_AB76_4ec7_A522_73F772B37DB7" end="EAID_AF7FF789_BD36_4f6f_88D5_A9B885B569DB"/>
 					<Generalization xmi:id="EAID_15E85DD3_0680_4e43_8E4C_7FFFBAA420BF" start="EAID_06DAF8FB_9AB7_4dc3_858B_0AF52CD806AA" end="EAID_56F23C42_AB76_4ec7_A522_73F772B37DB7"/>
 					<Association xmi:id="EAID_1BCBCC89_2264_4f88_828F_BC1561E19D3F" start="EAID_56F23C42_AB76_4ec7_A522_73F772B37DB7" end="EAID_56F23C42_AB76_4ec7_A522_73F772B37DB7"/>
+					<Association xmi:id="EAID_20012310_FB0D_46a6_8FE3_7E5FC0F65A41" start="EAID_BB94C7A0_BC1E_4451_96B7_5289FF3CFBD6" end="EAID_56F23C42_AB76_4ec7_A522_73F772B37DB7"/>
 					<Association xmi:id="EAID_665772AD_0C5A_4124_B849_486EC8068C1A" start="EAID_843D0506_9A61_42df_B54D_5758FF244743" end="EAID_56F23C42_AB76_4ec7_A522_73F772B37DB7"/>
 					<Generalization xmi:id="EAID_D9E9E158_75F9_4425_8208_7CFC1F61E939" start="EAID_6F8294D5_36BB_4b31_8CD9_F32AB66DCA70" end="EAID_56F23C42_AB76_4ec7_A522_73F772B37DB7"/>
 					<Generalization xmi:id="EAID_FB568435_F811_4e29_BED3_E6942BF3F5EC" start="EAID_25C30B1D_DB66_4580_BBBE_65E386CBFE2F" end="EAID_56F23C42_AB76_4ec7_A522_73F772B37DB7"/>
@@ -1055,13 +1066,13 @@
 				<extendedProperties tagged="0" package_name="SSN"/>
 				<packageproperties version="1.0"/>
 				<paths/>
-				<times created="2019-06-28 11:38:19" modified="2019-07-16 09:34:19" lastloaddate="2019-07-16 09:34:19" lastsavedate="2019-07-16 09:34:19"/>
+				<times created="2019-06-28 11:38:19" modified="2019-07-18 13:28:13" lastloaddate="2019-07-16 09:34:19" lastsavedate="2019-07-16 09:34:19"/>
 				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
 			</element>
 			<element xmi:idref="EAID_BA7FCE6F_309C_4d29_B962_D23A7D5946D6" xmi:type="uml:Class" name="Accuracy" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="59" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="43" ea_eleType="element"/>
 				<properties documentation="The closeness of agreement between the &lt;font color=&quot;#c93500&quot;&gt;Result &lt;/font&gt;of an &lt;font color=&quot;#c93500&quot;&gt;Observation &lt;/font&gt;(resp. the command of an &lt;font color=&quot;#c93500&quot;&gt;Actuation&lt;/font&gt;) and the true value of the observed &lt;font color=&quot;#c93500&quot;&gt;ObservableProperty &lt;/font&gt;(resp. of the acted on &lt;font color=&quot;#c93500&quot;&gt;ActuatableProperty&lt;/font&gt;) under the defined &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:59:18" modified="2019-07-17 12:05:17" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:59:18" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1077,9 +1088,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_01C65FF9_CA50_4832_849C_840402319058" xmi:type="uml:Class" name="ActuationRange" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="60" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="44" ea_eleType="element"/>
 				<properties documentation="The range of &lt;font color=&quot;#c93500&quot;&gt;Property &lt;/font&gt;values that can be the &lt;font color=&quot;#c93500&quot;&gt;Result &lt;/font&gt;of an &lt;font color=&quot;#c93500&quot;&gt;Actuation &lt;/font&gt;under the defined &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:57:51" modified="2019-07-17 12:03:33" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:57:51" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1094,7 +1105,7 @@
 					<attribute xmi:idref="EAID_DFA9822C_A54B_403e_A44E_CFA24ADF213E" name="hasSystemProperty" scope="Private">
 						<initial/>
 						<documentation/>
-						<model ea_localid="61" ea_guid="{DFA9822C-A54B-403e-A44E-CFA24ADF213E}"/>
+						<model ea_localid="58" ea_guid="{DFA9822C-A54B-403e-A44E-CFA24ADF213E}"/>
 						<properties derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
@@ -1121,9 +1132,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_80C0E509_F306_4af8_9E60_F5FD3008037D" xmi:type="uml:Class" name="BatteryLifetime" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="43" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="45" ea_eleType="element"/>
 				<properties documentation="Total useful life of a &lt;font color=&quot;#c93500&quot;&gt;System&lt;/font&gt;'s battery in the specified &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:19:27" modified="2019-07-17 12:02:07" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:19:27" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1139,9 +1150,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_F9D1506A_C2E3_4e42_A945_826FD9A2FA74" xmi:type="uml:Class" name="DetectionLimit" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="58" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="46" ea_eleType="element"/>
 				<properties documentation="An observed value for which the probability of falsely claiming the absence of a component in a material is beta, given a probability alpha of falsely claiming its presence." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:00:24" modified="2019-07-17 12:06:35" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:00:24" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1156,7 +1167,7 @@
 					<attribute xmi:idref="EAID_9D5508CC_AF51_4571_8E78_39F88AB6C5B3" name="hasSystemProperty" scope="Private">
 						<initial/>
 						<documentation/>
-						<model ea_localid="60" ea_guid="{9D5508CC-AF51-4571-8E78-39F88AB6C5B3}"/>
+						<model ea_localid="59" ea_guid="{9D5508CC-AF51-4571-8E78-39F88AB6C5B3}"/>
 						<properties derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
@@ -1183,9 +1194,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_F954B0C3_1812_4e56_BF07_0C59FE5901A2" xmi:type="uml:Class" name="Drift" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="57" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="47" ea_eleType="element"/>
 				<properties documentation="As a &lt;font color=&quot;#c93500&quot;&gt;Sensor Property&lt;/font&gt;: a continuous or incremental change in the reported values of &lt;font color=&quot;#c93500&quot;&gt;Observations&lt;/font&gt; over time for an unchanging &lt;font color=&quot;#c93500&quot;&gt;Property &lt;/font&gt;under the defined &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;. As an &lt;font color=&quot;#c93500&quot;&gt;Actuator Property&lt;/font&gt;: a continuous or incremental change in the true value of the acted on &lt;font color=&quot;#c93500&quot;&gt;ActuatableProperty &lt;/font&gt;over time for an unchanging command under the defined &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:01:08" modified="2019-07-17 12:04:45" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:01:08" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1201,9 +1212,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_7D5C6658_847D_46d8_B0EC_0FFBF60B5DE6" xmi:type="uml:Class" name="Frequency" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="56" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="48" ea_eleType="element"/>
 				<properties documentation="The smallest possible time between one &lt;font color=&quot;#c93500&quot;&gt;Observation&lt;/font&gt;, &lt;font color=&quot;#c93500&quot;&gt;Actuation&lt;/font&gt;, or &lt;font color=&quot;#c93500&quot;&gt;Sampling &lt;/font&gt;and the next, under the defined &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:02:10" modified="2019-07-17 12:08:11" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:02:10" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1219,9 +1230,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_94C8223C_AA0A_4a46_AB4B_0C50145C928C" xmi:type="uml:Class" name="Latency" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="55" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="49" ea_eleType="element"/>
 				<properties documentation="The time between a command for an &lt;font color=&quot;#c93500&quot;&gt;Observation &lt;/font&gt;(resp. &lt;font color=&quot;#c93500&quot;&gt;Actuation&lt;/font&gt;) and the &lt;font color=&quot;#c93500&quot;&gt;Sensor &lt;/font&gt;providing a &lt;font color=&quot;#c93500&quot;&gt;Result &lt;/font&gt;(resp. the &lt;font color=&quot;#c93500&quot;&gt;Actuator &lt;/font&gt;operating the &lt;font color=&quot;#c93500&quot;&gt;Actuation&lt;/font&gt;), under the defined &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:02:51" modified="2019-07-17 12:04:30" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:02:51" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1237,9 +1248,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_4B8E5BA0_B9C0_47ce_9E67_A2DB58E20B8E" xmi:type="uml:Class" name="MaintenanceSchedule" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="47" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="50" ea_eleType="element"/>
 				<properties documentation="Schedule of maintenance for a &lt;font color=&quot;#c93500&quot;&gt;System &lt;/font&gt;in the specified &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:14:08" modified="2019-07-17 12:01:19" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:14:08" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1255,9 +1266,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_C07AF9F7_C545_4914_AB83_0C894214B43B" xmi:type="uml:Class" name="MeasurementRange" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="61" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="51" ea_eleType="element"/>
 				<properties documentation="The set of values that the &lt;font color=&quot;#c93500&quot;&gt;Sensor &lt;/font&gt;can return as the &lt;font color=&quot;#c93500&quot;&gt;Result &lt;/font&gt;of an &lt;font color=&quot;#c93500&quot;&gt;Observation &lt;/font&gt;under the defined &lt;font color=&quot;#c93500&quot;&gt;Conditions &lt;/font&gt;with the defined system properties." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:56:56" modified="2019-07-17 12:06:14" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:56:56" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1272,7 +1283,7 @@
 					<attribute xmi:idref="EAID_162E717C_AF04_4ba7_93A7_C6F2FAF0B47C" name="hasSystemProperty" scope="Private">
 						<initial/>
 						<documentation/>
-						<model ea_localid="62" ea_guid="{162E717C-AF04-4ba7-93A7-C6F2FAF0B47C}"/>
+						<model ea_localid="60" ea_guid="{162E717C-AF04-4ba7-93A7-C6F2FAF0B47C}"/>
 						<properties derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
@@ -1299,9 +1310,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_3ABB5937_9000_41d2_ABEA_A88EA882044B" xmi:type="uml:Class" name="OperatingPowerRange" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="46" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="52" ea_eleType="element"/>
 				<properties documentation="Power range in which &lt;font color=&quot;#c93500&quot;&gt;System &lt;/font&gt;is expected to operate in the specified &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:14:54" modified="2019-07-17 12:01:09" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:14:54" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1317,9 +1328,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_00CA72D7_B3FA_4339_A336_9F37B1C96EA7" xmi:type="uml:Class" name="OperatingProperty" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="48" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="53" ea_eleType="element"/>
 				<properties documentation="An identifiable characteristic that represents how the &lt;font color=&quot;#c93500&quot;&gt;System &lt;/font&gt;operates under the specified &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;. May describe power ranges, power sources, standard configurations, attachments and the like." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:13:12" modified="2019-07-17 12:00:57" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:13:12" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1338,9 +1349,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_71CEB540_B1E7_4978_8FB6_BA67BD5674F8" xmi:type="uml:Class" name="OperatingRange" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="63" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="54" ea_eleType="element"/>
 				<properties documentation="Describes normal &lt;font color=&quot;#c93500&quot;&gt;OperatingProperties &lt;/font&gt;of a &lt;font color=&quot;#c93500&quot;&gt;System &lt;/font&gt;under some specified &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;.&#xA;For example, to the power requirement or maintenance schedule of a &lt;font color=&quot;#c93500&quot;&gt;System &lt;/font&gt;under a specified temperature range.&#xA;In the absence of &lt;font color=&quot;#c93500&quot;&gt;OperatingProperties&lt;/font&gt;, it simply describes the &lt;font color=&quot;#c93500&quot;&gt;Conditions &lt;/font&gt;in which a &lt;font color=&quot;#c93500&quot;&gt;System &lt;/font&gt;is expected to operate.&#xA;The &lt;font color=&quot;#c93500&quot;&gt;System &lt;/font&gt;continues to operate as defined using &lt;font color=&quot;#c93500&quot;&gt;SystemCapability&lt;/font&gt;. If, however, the &lt;font color=&quot;#c93500&quot;&gt;OperatingProperty &lt;/font&gt;is violated, the System is operating 'out of operating range' and &lt;font color=&quot;#c93500&quot;&gt;SystemCapability &lt;/font&gt;specifications may no longer hold." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:28:26" modified="2019-07-17 11:58:40" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:28:26" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1355,7 +1366,7 @@
 					<attribute xmi:idref="EAID_F72CC842_5013_44fe_BF87_F9C4732E2B23" name="hasOperatingProperty" scope="Private">
 						<initial/>
 						<documentation/>
-						<model ea_localid="64" ea_guid="{F72CC842-5013-44fe-BF87-F9C4732E2B23}"/>
+						<model ea_localid="61" ea_guid="{F72CC842-5013-44fe-BF87-F9C4732E2B23}"/>
 						<properties derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
@@ -1379,7 +1390,7 @@
 					<attribute xmi:idref="EAID_A64664A3_746E_4990_A98A_35656090A097" name="inCondition" scope="Private">
 						<initial/>
 						<documentation/>
-						<model ea_localid="65" ea_guid="{A64664A3-746E-4990-A98A-35656090A097}"/>
+						<model ea_localid="62" ea_guid="{A64664A3-746E-4990-A98A-35656090A097}"/>
 						<properties derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
@@ -1409,9 +1420,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_65CE1BBD_98C4_4598_A305_E45FCB268A70" xmi:type="uml:Class" name="Precision" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="54" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="55" ea_eleType="element"/>
 				<properties documentation="The closeness of agreement between replicate &lt;font color=&quot;#c93500&quot;&gt;Observations &lt;/font&gt;on an unchanged or similar quality value: i.e., a measure of a &lt;font color=&quot;#c93500&quot;&gt;Sensor&lt;/font&gt;'s ability to consistently reproduce an &lt;font color=&quot;#c93500&quot;&gt;Observation&lt;/font&gt;, under the defined &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:03:41" modified="2019-07-17 12:02:57" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:03:41" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1426,7 +1437,7 @@
 					<attribute xmi:idref="EAID_B29829E0_3516_4dbd_9CD2_F1BB4370A510" name="hasSystemProperty" scope="Private">
 						<initial/>
 						<documentation/>
-						<model ea_localid="59" ea_guid="{B29829E0-3516-4dbd-9CD2-F1BB4370A510}"/>
+						<model ea_localid="63" ea_guid="{B29829E0-3516-4dbd-9CD2-F1BB4370A510}"/>
 						<properties derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
@@ -1453,9 +1464,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_ECDE77DB_2C34_4576_9734_1CF5BBD0B34E" xmi:type="uml:Class" name="Repeatability" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="52" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="56" ea_eleType="element"/>
 				<properties documentation="The closeness of agreement between replicate &lt;font color=&quot;#c93500&quot;&gt;Actuations &lt;/font&gt;for an unchanged or similar command: i.e., a measure of an &lt;font color=&quot;#c93500&quot;&gt;Actuator&lt;/font&gt;'s ability to consistently reproduce an &lt;font color=&quot;#c93500&quot;&gt;Actuations&lt;/font&gt;, under the defined &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:06:12" modified="2019-07-17 12:05:40" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:06:12" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1470,7 +1481,7 @@
 					<attribute xmi:idref="EAID_E19A7130_A0F4_42e7_9B9D_718A19A9C8C1" name="hasSystemProperty" scope="Private">
 						<initial/>
 						<documentation/>
-						<model ea_localid="58" ea_guid="{E19A7130-A0F4-42e7-9B9D-718A19A9C8C1}"/>
+						<model ea_localid="64" ea_guid="{E19A7130-A0F4-42e7-9B9D-718A19A9C8C1}"/>
 						<properties derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
@@ -1497,9 +1508,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_0A73BE94_6D2F_4c5f_8194_B6816F0E4B61" xmi:type="uml:Class" name="Resolution" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="53" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="57" ea_eleType="element"/>
 				<properties documentation="As a &lt;font color=&quot;#c93500&quot;&gt;Sensor Property&lt;/font&gt;: the smallest difference in the value of a &lt;font color=&quot;#c93500&quot;&gt;ObservableProperty &lt;/font&gt;being observed that would result in perceptably different values of &lt;font color=&quot;#c93500&quot;&gt;Observation Results&lt;/font&gt;, under the defined &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;.&#xA;As an &lt;font color=&quot;#c93500&quot;&gt;Actuator Property&lt;/font&gt;: the smallest difference in the value of an &lt;font color=&quot;#c93500&quot;&gt;Actuation &lt;/font&gt;command that would result in a value change of the &lt;font color=&quot;#c93500&quot;&gt;ActuatableProperty &lt;/font&gt;being acted on, under the defined &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:04:55" modified="2019-07-17 12:07:22" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:04:55" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1515,9 +1526,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_5096DB44_216F_4e49_A6F9_8EC8B6E5CFA4" xmi:type="uml:Class" name="ResponseTime" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="51" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="58" ea_eleType="element"/>
 				<properties documentation="As a &lt;font color=&quot;#c93500&quot;&gt;Sensor Property&lt;/font&gt;: the time between a (step) change in the value of an observed &lt;font color=&quot;#c93500&quot;&gt;ObservableProperty &lt;/font&gt;and a &lt;font color=&quot;#c93500&quot;&gt;Sensor &lt;/font&gt;(possibly with specified error) 'settling' on an observed value, under the defined &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;.&#xA;As an &lt;font color=&quot;#c93500&quot;&gt;Actuator Property&lt;/font&gt;: the time between a (step) change in the command of an &lt;font color=&quot;#c93500&quot;&gt;Actuator &lt;/font&gt;and the 'settling' of the value of the acted on &lt;font color=&quot;#c93500&quot;&gt;ActuatableProperty&lt;/font&gt;, under the defined &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:07:11" modified="2019-07-17 12:04:17" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:07:11" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1533,9 +1544,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_E5183545_8CAC_4c47_A5CC_361D7E5433C3" xmi:type="uml:Class" name="Selectivity" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="50" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="59" ea_eleType="element"/>
 				<properties documentation="As a &lt;font color=&quot;#c93500&quot;&gt;Sensor Property&lt;/font&gt;: Selectivity is a &lt;font color=&quot;#c93500&quot;&gt;Property &lt;/font&gt;of a &lt;font color=&quot;#c93500&quot;&gt;Sensor &lt;/font&gt;whereby it provides observed values for one or more &lt;font color=&quot;#c93500&quot;&gt;ObservableProperties &lt;/font&gt;such that the &lt;font color=&quot;#c93500&quot;&gt;Result &lt;/font&gt;for each &lt;font color=&quot;#c93500&quot;&gt;ObservableProperty &lt;/font&gt;are independent of other &lt;font color=&quot;#c93500&quot;&gt;Properties &lt;/font&gt;in the &lt;font color=&quot;#c93500&quot;&gt;FeatureOfInterest &lt;/font&gt;being investigated, under the defined &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;.&#xA;As an &lt;font color=&quot;#c93500&quot;&gt;Actuator Property&lt;/font&gt;: Selectivity is a &lt;font color=&quot;#c93500&quot;&gt;Property &lt;/font&gt;of an &lt;font color=&quot;#c93500&quot;&gt;Actuator &lt;/font&gt;whereby it acts on one or more &lt;font color=&quot;#c93500&quot;&gt;ActuatableProperties &lt;/font&gt;such as the &lt;font color=&quot;#c93500&quot;&gt;Results &lt;/font&gt;for each &lt;font color=&quot;#c93500&quot;&gt;ActuatableProperty &lt;/font&gt;are independent of other &lt;font color=&quot;#c93500&quot;&gt;Properties &lt;/font&gt;in the &lt;font color=&quot;#c93500&quot;&gt;FeatureOfInterest &lt;/font&gt;being acted on, under the defined &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:08:22" modified="2019-07-17 12:07:02" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:08:22" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1551,9 +1562,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_9B61EC2A_3FE6_437a_BF98_8B27EFF0EF5E" xmi:type="uml:Class" name="Sensitivity" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="49" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="60" ea_eleType="element"/>
 				<properties documentation="As a &lt;font color=&quot;#c93500&quot;&gt;Sensor Property&lt;/font&gt;: Sensitivity is the quotient of the change in a &lt;font color=&quot;#c93500&quot;&gt;Result &lt;/font&gt;of &lt;font color=&quot;#c93500&quot;&gt;Observations &lt;/font&gt;and the corresponding change in a value of an &lt;font color=&quot;#c93500&quot;&gt;ObservableProperty &lt;/font&gt;being observed, under the defined &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;.&#xA;As an &lt;font color=&quot;#c93500&quot;&gt;Actuator Property&lt;/font&gt;: Sensitivity is the quotient of the change in a command of &lt;font color=&quot;#c93500&quot;&gt;Actuation &lt;/font&gt;and the corresponding change in a value of an &lt;font color=&quot;#c93500&quot;&gt;ActuatableProperty &lt;/font&gt;being acted on, under the defined &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:09:41" modified="2019-07-17 12:03:18" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:09:41" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1569,9 +1580,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_D7761D65_D941_40f0_9073_1F4E3827DD34" xmi:type="uml:Class" name="SurvivalProperty" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="45" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="61" ea_eleType="element"/>
 				<properties documentation="An identifiable characteristic that represents the extent of the &lt;font color=&quot;#c93500&quot;&gt;System&lt;/font&gt;'s useful life under the specified &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;. May describe for example total battery life or number of recharges, or, for &lt;font color=&quot;#c93500&quot;&gt;Sensors &lt;/font&gt;that are used only a fixed number of times, the number of &lt;font color=&quot;#c93500&quot;&gt;Observations &lt;/font&gt;that can be made before the sensing capability is depleted." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:17:36" modified="2019-07-17 12:01:56" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:17:36" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1590,9 +1601,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_AF7FF789_BD36_4f6f_88D5_A9B885B569DB" xmi:type="uml:Class" name="SurvivalRange" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="64" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="62" ea_eleType="element"/>
 				<properties documentation="Describes &lt;font color=&quot;#c93500&quot;&gt;SurvivalProperties &lt;/font&gt;of a &lt;font color=&quot;#c93500&quot;&gt;System &lt;/font&gt;under some specified &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;. For example, to the lifetime of a System under a specified temperature range.&#xA;In the absence of &lt;font color=&quot;#c93500&quot;&gt;SurvivalProperties&lt;/font&gt;, simply describes the &lt;font color=&quot;#c93500&quot;&gt;Conditions &lt;/font&gt;a &lt;font color=&quot;#c93500&quot;&gt;System &lt;/font&gt;can be exposed to without damage. For example, the temperature range a System can withstand before being considered damaged.&#xA;The System continues to operate as defined using &lt;font color=&quot;#c93500&quot;&gt;SystemCapability&lt;/font&gt;. If, however, the SurvivalRange is violated, the &lt;font color=&quot;#c93500&quot;&gt;System &lt;/font&gt;is 'damaged' and &lt;font color=&quot;#c93500&quot;&gt;SystemCapability &lt;/font&gt;specifications may no longer hold." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:28:08" modified="2019-07-17 11:58:52" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:28:08" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1607,7 +1618,7 @@
 					<attribute xmi:idref="EAID_AB583E77_55A4_4e79_964B_902B55E7A046" name="hasSurvivalProperty" scope="Private">
 						<initial/>
 						<documentation/>
-						<model ea_localid="66" ea_guid="{AB583E77-55A4-4e79-964B-902B55E7A046}"/>
+						<model ea_localid="65" ea_guid="{AB583E77-55A4-4e79-964B-902B55E7A046}"/>
 						<properties derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
@@ -1631,7 +1642,7 @@
 					<attribute xmi:idref="EAID_82328818_748E_4bba_8212_17E604302080" name="inCondition" scope="Private">
 						<initial/>
 						<documentation/>
-						<model ea_localid="67" ea_guid="{82328818-748E-4bba-8212-17E604302080}"/>
+						<model ea_localid="66" ea_guid="{82328818-748E-4bba-8212-17E604302080}"/>
 						<properties derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
@@ -1661,9 +1672,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_0F94E474_057B_4f84_A19C_0FAB671A7703" xmi:type="uml:Class" name="SystemCapability" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="65" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="63" ea_eleType="element"/>
 				<properties documentation="Describes normal measurement, actuation, sampling properties such as accuracy, range, precision, etc. of a &lt;font color=&quot;#c93500&quot;&gt;System &lt;/font&gt;under some specified &lt;font color=&quot;#c93500&quot;&gt;Conditions &lt;/font&gt;such as a temperature range. The capabilities specified here are those that affect the primary purpose of the &lt;font color=&quot;#c93500&quot;&gt;System&lt;/font&gt;, while those in &lt;font color=&quot;#c93500&quot;&gt;OperatingRange &lt;/font&gt;represent the system's normal operating environment, including &lt;font color=&quot;#c93500&quot;&gt;Conditions &lt;/font&gt;that don't affect the &lt;font color=&quot;#c93500&quot;&gt;Observations &lt;/font&gt;or the &lt;font color=&quot;#c93500&quot;&gt;Actuations&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:27:42" modified="2019-07-17 11:58:27" complexity="1" status="Validated"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:27:42" modified="2019-07-18 13:28:13" complexity="1" status="Validated"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1678,7 +1689,7 @@
 					<attribute xmi:idref="EAID_CE0B147C_A221_4fc5_8719_47362DE303BA" name="forProperty" scope="Private">
 						<initial/>
 						<documentation/>
-						<model ea_localid="68" ea_guid="{CE0B147C-A221-4fc5-8719-47362DE303BA}"/>
+						<model ea_localid="67" ea_guid="{CE0B147C-A221-4fc5-8719-47362DE303BA}"/>
 						<properties derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
@@ -1702,7 +1713,7 @@
 					<attribute xmi:idref="EAID_20826011_DE04_44d9_A924_0FF54DBAC20A" name="hasSystemProperty" scope="Private">
 						<initial/>
 						<documentation/>
-						<model ea_localid="69" ea_guid="{20826011-DE04-44d9-A924-0FF54DBAC20A}"/>
+						<model ea_localid="68" ea_guid="{20826011-DE04-44d9-A924-0FF54DBAC20A}"/>
 						<properties derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="1"/>
@@ -1726,7 +1737,7 @@
 					<attribute xmi:idref="EAID_8E03DF47_07A8_4fc2_AC07_91519A208738" name="inCondition" scope="Private">
 						<initial/>
 						<documentation/>
-						<model ea_localid="70" ea_guid="{8E03DF47-07A8-4fc2-AC07-91519A208738}"/>
+						<model ea_localid="69" ea_guid="{8E03DF47-07A8-4fc2-AC07-91519A208738}"/>
 						<properties derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="2"/>
@@ -1757,9 +1768,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_6C170E6B_A99D_42d7_A1CD_ABDA7F006E75" xmi:type="uml:Class" name="SystemLifetime" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="44" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="64" ea_eleType="element"/>
 				<properties documentation="Total useful life of a &lt;font color=&quot;#c93500&quot;&gt;System &lt;/font&gt;(expressed as total life since manufacture, time in use, number of operations, etc.) in the specified &lt;font color=&quot;#c93500&quot;&gt;Conditions&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:18:44" modified="2019-07-17 12:02:16" complexity="1" status="Proposed"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 09:18:44" modified="2019-07-18 13:28:13" complexity="1" status="Proposed"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1775,9 +1786,9 @@
 				</links>
 			</element>
 			<element xmi:idref="EAID_DAD13197_F816_4e01_8AA5_D9098DE24D4D" xmi:type="uml:Class" name="SystemProperty" scope="public">
-				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="62" ea_eleType="element"/>
+				<model package="EAPK_E9FE09E3_AEAE_49be_8E69_CC68FA15FB28" tpos="0" ea_localid="65" ea_eleType="element"/>
 				<properties documentation="An identifiable and observable characteristic that represents the &lt;font color=&quot;#c93500&quot;&gt;System&lt;/font&gt;'s ability to operate its primary purpose: a &lt;font color=&quot;#c93500&quot;&gt;Sensor &lt;/font&gt;to make &lt;font color=&quot;#c93500&quot;&gt;Observations&lt;/font&gt;, an &lt;font color=&quot;#c93500&quot;&gt;Actuator &lt;/font&gt;to make &lt;font color=&quot;#c93500&quot;&gt;Actuations&lt;/font&gt;, or a &lt;font color=&quot;#c93500&quot;&gt;Sampler &lt;/font&gt;to make &lt;font color=&quot;#c93500&quot;&gt;Sampling&lt;/font&gt;." isSpecification="false" sType="Class" nType="0" scope="public" stereotype="owlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:55:42" modified="2019-07-17 12:02:40" complexity="1" status="Validated"/>
+				<project author="cheazel" version="1.0" phase="1.0" created="2019-07-03 08:55:42" modified="2019-07-18 13:28:13" complexity="1" status="Validated"/>
 				<code product_name="Java" gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1792,7 +1803,7 @@
 					<attribute xmi:idref="EAID_739EE35F_45DE_4729_B96C_28EC94A4C8E8" name="systemCapability" scope="Private">
 						<initial/>
 						<documentation/>
-						<model ea_localid="63" ea_guid="{739EE35F-45DE-4729-B96C-28EC94A4C8E8}"/>
+						<model ea_localid="70" ea_guid="{739EE35F-45DE-4729-B96C-28EC94A4C8E8}"/>
 						<properties derived="0" collection="false" static="0" duplicates="0" changeability="changeable"/>
 						<coords ordered="0" scale="0"/>
 						<containment containment="Not Specified" position="0"/>
@@ -1870,7 +1881,7 @@
 			</connector>
 			<connector xmi:idref="EAID_5C1A7C69_C477_4cca_8304_7A785C160229">
 				<source xmi:idref="EAID_AF7FF789_BD36_4f6f_88D5_A9B885B569DB">
-					<model ea_localid="64" type="Class" name="SurvivalRange"/>
+					<model ea_localid="62" type="Class" name="SurvivalRange"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -1905,7 +1916,7 @@
 			</connector>
 			<connector xmi:idref="EAID_8B0C3304_76A7_4165_BDB1_5974F39A7714">
 				<source xmi:idref="EAID_0F94E474_057B_4f84_A19C_0FAB671A7703">
-					<model ea_localid="65" type="Class" name="SystemCapability"/>
+					<model ea_localid="63" type="Class" name="SystemCapability"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -1940,7 +1951,7 @@
 			</connector>
 			<connector xmi:idref="EAID_DBD5F8B7_DC84_4ffa_8FD4_C2639F2F6B13">
 				<source xmi:idref="EAID_71CEB540_B1E7_4978_8FB6_BA67BD5674F8">
-					<model ea_localid="63" type="Class" name="OperatingRange"/>
+					<model ea_localid="54" type="Class" name="OperatingRange"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2115,7 +2126,7 @@
 			</connector>
 			<connector xmi:idref="EAID_88F2BB8C_84A3_41eb_A53B_4DD1EC5493AE">
 				<source xmi:idref="EAID_0F94E474_057B_4f84_A19C_0FAB671A7703">
-					<model ea_localid="65" type="Class" name="SystemCapability"/>
+					<model ea_localid="63" type="Class" name="SystemCapability"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2150,7 +2161,7 @@
 			</connector>
 			<connector xmi:idref="EAID_B76C8853_680D_4b84_AD10_228242FE71B7">
 				<source xmi:idref="EAID_D7761D65_D941_40f0_9073_1F4E3827DD34">
-					<model ea_localid="45" type="Class" name="SurvivalProperty"/>
+					<model ea_localid="61" type="Class" name="SurvivalProperty"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2171,7 +2182,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="64"/>
+				<model ea_localid="47"/>
 				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -2184,7 +2195,7 @@
 			</connector>
 			<connector xmi:idref="EAID_C8080B02_BF13_4d3f_BB91_EBB76C74981D">
 				<source xmi:idref="EAID_00CA72D7_B3FA_4339_A336_9F37B1C96EA7">
-					<model ea_localid="48" type="Class" name="OperatingProperty"/>
+					<model ea_localid="53" type="Class" name="OperatingProperty"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2205,7 +2216,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="60"/>
+				<model ea_localid="56"/>
 				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -2218,7 +2229,75 @@
 			</connector>
 			<connector xmi:idref="EAID_D43CDC92_8589_4e07_AEF8_E41F2AF93532">
 				<source xmi:idref="EAID_0F94E474_057B_4f84_A19C_0FAB671A7703">
-					<model ea_localid="65" type="Class" name="SystemCapability"/>
+					<model ea_localid="63" type="Class" name="SystemCapability"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_DC18CA2E_03BC_409e_A0E1_537CF344C426">
+					<model ea_localid="33" type="Class" name="Property"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="44"/>
+				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_E18C57CB_E590_4665_9626_4186E5CB5BF1">
+				<source xmi:idref="EAID_71CEB540_B1E7_4978_8FB6_BA67BD5674F8">
+					<model ea_localid="54" type="Class" name="OperatingRange"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_DC18CA2E_03BC_409e_A0E1_537CF344C426">
+					<model ea_localid="33" type="Class" name="Property"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="54"/>
+				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_E5DDD9C7_8288_4b03_87FB_552C3FFCBEA9">
+				<source xmi:idref="EAID_DAD13197_F816_4e01_8AA5_D9098DE24D4D">
+					<model ea_localid="65" type="Class" name="SystemProperty"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2250,43 +2329,9 @@
 				<xrefs/>
 				<tags/>
 			</connector>
-			<connector xmi:idref="EAID_E18C57CB_E590_4665_9626_4186E5CB5BF1">
-				<source xmi:idref="EAID_71CEB540_B1E7_4978_8FB6_BA67BD5674F8">
-					<model ea_localid="63" type="Class" name="OperatingRange"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</source>
-				<target xmi:idref="EAID_DC18CA2E_03BC_409e_A0E1_537CF344C426">
-					<model ea_localid="33" type="Class" name="Property"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</target>
-				<model ea_localid="43"/>
-				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
-				<parameterSubstitutions/>
-				<documentation/>
-				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels/>
-				<extendedProperties virtualInheritance="0"/>
-				<style/>
-				<xrefs/>
-				<tags/>
-			</connector>
-			<connector xmi:idref="EAID_E5DDD9C7_8288_4b03_87FB_552C3FFCBEA9">
-				<source xmi:idref="EAID_DAD13197_F816_4e01_8AA5_D9098DE24D4D">
-					<model ea_localid="62" type="Class" name="SystemProperty"/>
+			<connector xmi:idref="EAID_E9D96E0C_DE76_447a_A3C3_C83DC7BD284E">
+				<source xmi:idref="EAID_AF7FF789_BD36_4f6f_88D5_A9B885B569DB">
+					<model ea_localid="62" type="Class" name="SurvivalRange"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2308,40 +2353,6 @@
 					<tags/>
 				</target>
 				<model ea_localid="45"/>
-				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
-				<parameterSubstitutions/>
-				<documentation/>
-				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels/>
-				<extendedProperties virtualInheritance="0"/>
-				<style/>
-				<xrefs/>
-				<tags/>
-			</connector>
-			<connector xmi:idref="EAID_E9D96E0C_DE76_447a_A3C3_C83DC7BD284E">
-				<source xmi:idref="EAID_AF7FF789_BD36_4f6f_88D5_A9B885B569DB">
-					<model ea_localid="64" type="Class" name="SurvivalRange"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</source>
-				<target xmi:idref="EAID_DC18CA2E_03BC_409e_A0E1_537CF344C426">
-					<model ea_localid="33" type="Class" name="Property"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</target>
-				<model ea_localid="42"/>
 				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -2470,7 +2481,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_48494FEA_391B_4297_9FF9_C174021D2CBF">
-					<model ea_localid="38" type="Class" name="Input"/>
+					<model ea_localid="37" type="Class" name="Input"/>
 					<role name="hasInput" visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2480,7 +2491,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="76"/>
+				<model ea_localid="77"/>
 				<properties ea_type="Association" direction="Source -&gt; Destination"/>
 				<modifiers isRoot="false" isLeaf="false"/>
 				<parameterSubstitutions/>
@@ -2505,7 +2516,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_7A57097F_BDB2_4e54_9380_BCC3FC98E2A1">
-					<model ea_localid="37" type="Class" name="Output"/>
+					<model ea_localid="38" type="Class" name="Output"/>
 					<role name="hasOutput" visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2515,7 +2526,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="77"/>
+				<model ea_localid="76"/>
 				<properties ea_type="Association" direction="Source -&gt; Destination"/>
 				<modifiers isRoot="false" isLeaf="false"/>
 				<parameterSubstitutions/>
@@ -2575,7 +2586,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_0F94E474_057B_4f84_A19C_0FAB671A7703">
-					<model ea_localid="65" type="Class" name="SystemCapability"/>
+					<model ea_localid="63" type="Class" name="SystemCapability"/>
 					<role name="hasSystemCapability" visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2610,7 +2621,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_71CEB540_B1E7_4978_8FB6_BA67BD5674F8">
-					<model ea_localid="63" type="Class" name="OperatingRange"/>
+					<model ea_localid="54" type="Class" name="OperatingRange"/>
 					<role name="hasOperatingRange" visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2680,7 +2691,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_AF7FF789_BD36_4f6f_88D5_A9B885B569DB">
-					<model ea_localid="64" type="Class" name="SurvivalRange"/>
+					<model ea_localid="62" type="Class" name="SurvivalRange"/>
 					<role name="hasSurvivalRange" visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2727,6 +2738,41 @@
 				</target>
 				<model ea_localid="75"/>
 				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_20012310_FB0D_46a6_8FE3_7E5FC0F65A41">
+				<source xmi:idref="EAID_BB94C7A0_BC1E_4451_96B7_5289FF3CFBD6">
+					<model ea_localid="1067" type="Class" name="Physical System"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_56F23C42_AB76_4ec7_A522_73F772B37DB7">
+					<model ea_localid="41" type="Class" name="System"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="1841"/>
+				<properties ea_type="Association" direction="Unspecified"/>
+				<modifiers isRoot="false" isLeaf="false"/>
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
@@ -2841,7 +2887,7 @@
 			</connector>
 			<connector xmi:idref="EAID_5DC6B28F_9FF3_4291_A74A_09E7386280FD">
 				<source xmi:idref="EAID_BA7FCE6F_309C_4d29_B962_D23A7D5946D6">
-					<model ea_localid="59" type="Class" name="Accuracy"/>
+					<model ea_localid="43" type="Class" name="Accuracy"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2852,75 +2898,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_DAD13197_F816_4e01_8AA5_D9098DE24D4D">
-					<model ea_localid="62" type="Class" name="SystemProperty"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</target>
-				<model ea_localid="48"/>
-				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
-				<parameterSubstitutions/>
-				<documentation/>
-				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels/>
-				<extendedProperties virtualInheritance="0"/>
-				<style/>
-				<xrefs/>
-				<tags/>
-			</connector>
-			<connector xmi:idref="EAID_AE46241F_8D4F_494d_B599_A669630E5F78">
-				<source xmi:idref="EAID_01C65FF9_CA50_4832_849C_840402319058">
-					<model ea_localid="60" type="Class" name="ActuationRange"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</source>
-				<target xmi:idref="EAID_DAD13197_F816_4e01_8AA5_D9098DE24D4D">
-					<model ea_localid="62" type="Class" name="SystemProperty"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</target>
-				<model ea_localid="47"/>
-				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
-				<parameterSubstitutions/>
-				<documentation/>
-				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels/>
-				<extendedProperties virtualInheritance="0"/>
-				<style/>
-				<xrefs/>
-				<tags/>
-			</connector>
-			<connector xmi:idref="EAID_5EC45993_5F47_4f66_B1EF_A6DA14AB0977">
-				<source xmi:idref="EAID_80C0E509_F306_4af8_9E60_F5FD3008037D">
-					<model ea_localid="43" type="Class" name="BatteryLifetime"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</source>
-				<target xmi:idref="EAID_D7761D65_D941_40f0_9073_1F4E3827DD34">
-					<model ea_localid="45" type="Class" name="SurvivalProperty"/>
+					<model ea_localid="65" type="Class" name="SystemProperty"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2941,9 +2919,9 @@
 				<xrefs/>
 				<tags/>
 			</connector>
-			<connector xmi:idref="EAID_6B7935E2_ADA6_4256_AE2F_B61659BCAB61">
-				<source xmi:idref="EAID_F9D1506A_C2E3_4e42_A945_826FD9A2FA74">
-					<model ea_localid="58" type="Class" name="DetectionLimit"/>
+			<connector xmi:idref="EAID_AE46241F_8D4F_494d_B599_A669630E5F78">
+				<source xmi:idref="EAID_01C65FF9_CA50_4832_849C_840402319058">
+					<model ea_localid="44" type="Class" name="ActuationRange"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2954,7 +2932,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_DAD13197_F816_4e01_8AA5_D9098DE24D4D">
-					<model ea_localid="62" type="Class" name="SystemProperty"/>
+					<model ea_localid="65" type="Class" name="SystemProperty"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2964,7 +2942,75 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="49"/>
+				<model ea_localid="65"/>
+				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_5EC45993_5F47_4f66_B1EF_A6DA14AB0977">
+				<source xmi:idref="EAID_80C0E509_F306_4af8_9E60_F5FD3008037D">
+					<model ea_localid="45" type="Class" name="BatteryLifetime"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_D7761D65_D941_40f0_9073_1F4E3827DD34">
+					<model ea_localid="61" type="Class" name="SurvivalProperty"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="64"/>
+				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_6B7935E2_ADA6_4256_AE2F_B61659BCAB61">
+				<source xmi:idref="EAID_F9D1506A_C2E3_4e42_A945_826FD9A2FA74">
+					<model ea_localid="46" type="Class" name="DetectionLimit"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_DAD13197_F816_4e01_8AA5_D9098DE24D4D">
+					<model ea_localid="65" type="Class" name="SystemProperty"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="63"/>
 				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -2977,7 +3023,7 @@
 			</connector>
 			<connector xmi:idref="EAID_634A6B12_D552_4159_A9D7_21A05C51E825">
 				<source xmi:idref="EAID_F954B0C3_1812_4e56_BF07_0C59FE5901A2">
-					<model ea_localid="57" type="Class" name="Drift"/>
+					<model ea_localid="47" type="Class" name="Drift"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -2988,177 +3034,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_DAD13197_F816_4e01_8AA5_D9098DE24D4D">
-					<model ea_localid="62" type="Class" name="SystemProperty"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</target>
-				<model ea_localid="50"/>
-				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
-				<parameterSubstitutions/>
-				<documentation/>
-				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels/>
-				<extendedProperties virtualInheritance="0"/>
-				<style/>
-				<xrefs/>
-				<tags/>
-			</connector>
-			<connector xmi:idref="EAID_9C07D88E_A877_4b92_A6FD_A3711B1F2C5F">
-				<source xmi:idref="EAID_7D5C6658_847D_46d8_B0EC_0FFBF60B5DE6">
-					<model ea_localid="56" type="Class" name="Frequency"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</source>
-				<target xmi:idref="EAID_DAD13197_F816_4e01_8AA5_D9098DE24D4D">
-					<model ea_localid="62" type="Class" name="SystemProperty"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</target>
-				<model ea_localid="51"/>
-				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
-				<parameterSubstitutions/>
-				<documentation/>
-				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels/>
-				<extendedProperties virtualInheritance="0"/>
-				<style/>
-				<xrefs/>
-				<tags/>
-			</connector>
-			<connector xmi:idref="EAID_A921F7F3_ACA9_42ff_8C7E_7FBFBF23D562">
-				<source xmi:idref="EAID_94C8223C_AA0A_4a46_AB4B_0C50145C928C">
-					<model ea_localid="55" type="Class" name="Latency"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</source>
-				<target xmi:idref="EAID_DAD13197_F816_4e01_8AA5_D9098DE24D4D">
-					<model ea_localid="62" type="Class" name="SystemProperty"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</target>
-				<model ea_localid="52"/>
-				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
-				<parameterSubstitutions/>
-				<documentation/>
-				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels/>
-				<extendedProperties virtualInheritance="0"/>
-				<style/>
-				<xrefs/>
-				<tags/>
-			</connector>
-			<connector xmi:idref="EAID_DE61D960_CE62_4274_BB39_C251662C3178">
-				<source xmi:idref="EAID_4B8E5BA0_B9C0_47ce_9E67_A2DB58E20B8E">
-					<model ea_localid="47" type="Class" name="MaintenanceSchedule"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</source>
-				<target xmi:idref="EAID_00CA72D7_B3FA_4339_A336_9F37B1C96EA7">
-					<model ea_localid="48" type="Class" name="OperatingProperty"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</target>
-				<model ea_localid="61"/>
-				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
-				<parameterSubstitutions/>
-				<documentation/>
-				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels/>
-				<extendedProperties virtualInheritance="0"/>
-				<style/>
-				<xrefs/>
-				<tags/>
-			</connector>
-			<connector xmi:idref="EAID_BF2FA591_F955_4a5e_8B69_C65A01632AB8">
-				<source xmi:idref="EAID_C07AF9F7_C545_4914_AB83_0C894214B43B">
-					<model ea_localid="61" type="Class" name="MeasurementRange"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</source>
-				<target xmi:idref="EAID_DAD13197_F816_4e01_8AA5_D9098DE24D4D">
-					<model ea_localid="62" type="Class" name="SystemProperty"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</target>
-				<model ea_localid="46"/>
-				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
-				<parameterSubstitutions/>
-				<documentation/>
-				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels/>
-				<extendedProperties virtualInheritance="0"/>
-				<style/>
-				<xrefs/>
-				<tags/>
-			</connector>
-			<connector xmi:idref="EAID_E52E99CE_9B7A_48e2_B452_982E16F1A973">
-				<source xmi:idref="EAID_3ABB5937_9000_41d2_ABEA_A88EA882044B">
-					<model ea_localid="46" type="Class" name="OperatingPowerRange"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</source>
-				<target xmi:idref="EAID_00CA72D7_B3FA_4339_A336_9F37B1C96EA7">
-					<model ea_localid="48" type="Class" name="OperatingProperty"/>
+					<model ea_localid="65" type="Class" name="SystemProperty"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3179,9 +3055,179 @@
 				<xrefs/>
 				<tags/>
 			</connector>
+			<connector xmi:idref="EAID_9C07D88E_A877_4b92_A6FD_A3711B1F2C5F">
+				<source xmi:idref="EAID_7D5C6658_847D_46d8_B0EC_0FFBF60B5DE6">
+					<model ea_localid="48" type="Class" name="Frequency"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_DAD13197_F816_4e01_8AA5_D9098DE24D4D">
+					<model ea_localid="65" type="Class" name="SystemProperty"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="61"/>
+				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_A921F7F3_ACA9_42ff_8C7E_7FBFBF23D562">
+				<source xmi:idref="EAID_94C8223C_AA0A_4a46_AB4B_0C50145C928C">
+					<model ea_localid="49" type="Class" name="Latency"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_DAD13197_F816_4e01_8AA5_D9098DE24D4D">
+					<model ea_localid="65" type="Class" name="SystemProperty"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="60"/>
+				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_DE61D960_CE62_4274_BB39_C251662C3178">
+				<source xmi:idref="EAID_4B8E5BA0_B9C0_47ce_9E67_A2DB58E20B8E">
+					<model ea_localid="50" type="Class" name="MaintenanceSchedule"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_00CA72D7_B3FA_4339_A336_9F37B1C96EA7">
+					<model ea_localid="53" type="Class" name="OperatingProperty"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="59"/>
+				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_BF2FA591_F955_4a5e_8B69_C65A01632AB8">
+				<source xmi:idref="EAID_C07AF9F7_C545_4914_AB83_0C894214B43B">
+					<model ea_localid="51" type="Class" name="MeasurementRange"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_DAD13197_F816_4e01_8AA5_D9098DE24D4D">
+					<model ea_localid="65" type="Class" name="SystemProperty"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="58"/>
+				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_E52E99CE_9B7A_48e2_B452_982E16F1A973">
+				<source xmi:idref="EAID_3ABB5937_9000_41d2_ABEA_A88EA882044B">
+					<model ea_localid="52" type="Class" name="OperatingPowerRange"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_00CA72D7_B3FA_4339_A336_9F37B1C96EA7">
+					<model ea_localid="53" type="Class" name="OperatingProperty"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="57"/>
+				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
+				<parameterSubstitutions/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
 			<connector xmi:idref="EAID_EC056A00_2E54_47b0_98C9_54422B694176">
 				<source xmi:idref="EAID_71CEB540_B1E7_4978_8FB6_BA67BD5674F8">
-					<model ea_localid="63" type="Class" name="OperatingRange"/>
+					<model ea_localid="54" type="Class" name="OperatingRange"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3192,7 +3238,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_00CA72D7_B3FA_4339_A336_9F37B1C96EA7">
-					<model ea_localid="48" type="Class" name="OperatingProperty"/>
+					<model ea_localid="53" type="Class" name="OperatingProperty"/>
 					<role name="hasOperatingProperty" visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3202,7 +3248,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="59"/>
+				<model ea_localid="55"/>
 				<properties ea_type="Association" direction="Source -&gt; Destination"/>
 				<modifiers isRoot="false" isLeaf="false"/>
 				<parameterSubstitutions/>
@@ -3216,7 +3262,7 @@
 			</connector>
 			<connector xmi:idref="EAID_EC898974_B5EA_4478_96DC_B7F4C1C49F5A">
 				<source xmi:idref="EAID_65CE1BBD_98C4_4598_A305_E45FCB268A70">
-					<model ea_localid="54" type="Class" name="Precision"/>
+					<model ea_localid="55" type="Class" name="Precision"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3227,7 +3273,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_DAD13197_F816_4e01_8AA5_D9098DE24D4D">
-					<model ea_localid="62" type="Class" name="SystemProperty"/>
+					<model ea_localid="65" type="Class" name="SystemProperty"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3250,7 +3296,7 @@
 			</connector>
 			<connector xmi:idref="EAID_F055C0B4_C39B_4b49_AC9C_F562FC9FC7E7">
 				<source xmi:idref="EAID_ECDE77DB_2C34_4576_9734_1CF5BBD0B34E">
-					<model ea_localid="52" type="Class" name="Repeatability"/>
+					<model ea_localid="56" type="Class" name="Repeatability"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3261,7 +3307,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_DAD13197_F816_4e01_8AA5_D9098DE24D4D">
-					<model ea_localid="62" type="Class" name="SystemProperty"/>
+					<model ea_localid="65" type="Class" name="SystemProperty"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3271,7 +3317,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="55"/>
+				<model ea_localid="52"/>
 				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -3284,7 +3330,7 @@
 			</connector>
 			<connector xmi:idref="EAID_97CBFA01_8F48_491a_B872_C6D894C1179C">
 				<source xmi:idref="EAID_0A73BE94_6D2F_4c5f_8194_B6816F0E4B61">
-					<model ea_localid="53" type="Class" name="Resolution"/>
+					<model ea_localid="57" type="Class" name="Resolution"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3295,7 +3341,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_DAD13197_F816_4e01_8AA5_D9098DE24D4D">
-					<model ea_localid="62" type="Class" name="SystemProperty"/>
+					<model ea_localid="65" type="Class" name="SystemProperty"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3305,7 +3351,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="54"/>
+				<model ea_localid="51"/>
 				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -3318,7 +3364,7 @@
 			</connector>
 			<connector xmi:idref="EAID_AD81A7F1_C066_441e_A5D1_F2D12998F256">
 				<source xmi:idref="EAID_5096DB44_216F_4e49_A6F9_8EC8B6E5CFA4">
-					<model ea_localid="51" type="Class" name="ResponseTime"/>
+					<model ea_localid="58" type="Class" name="ResponseTime"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3329,7 +3375,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_DAD13197_F816_4e01_8AA5_D9098DE24D4D">
-					<model ea_localid="62" type="Class" name="SystemProperty"/>
+					<model ea_localid="65" type="Class" name="SystemProperty"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3339,7 +3385,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="56"/>
+				<model ea_localid="50"/>
 				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -3352,7 +3398,7 @@
 			</connector>
 			<connector xmi:idref="EAID_71A576DF_88FF_41d2_83DB_26FBAD032F4C">
 				<source xmi:idref="EAID_E5183545_8CAC_4c47_A5CC_361D7E5433C3">
-					<model ea_localid="50" type="Class" name="Selectivity"/>
+					<model ea_localid="59" type="Class" name="Selectivity"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3363,7 +3409,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_DAD13197_F816_4e01_8AA5_D9098DE24D4D">
-					<model ea_localid="62" type="Class" name="SystemProperty"/>
+					<model ea_localid="65" type="Class" name="SystemProperty"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3373,7 +3419,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="57"/>
+				<model ea_localid="49"/>
 				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -3386,7 +3432,7 @@
 			</connector>
 			<connector xmi:idref="EAID_03858868_01FD_4f58_883B_7CC85C23C3A1">
 				<source xmi:idref="EAID_9B61EC2A_3FE6_437a_BF98_8B27EFF0EF5E">
-					<model ea_localid="49" type="Class" name="Sensitivity"/>
+					<model ea_localid="60" type="Class" name="Sensitivity"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3397,7 +3443,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_DAD13197_F816_4e01_8AA5_D9098DE24D4D">
-					<model ea_localid="62" type="Class" name="SystemProperty"/>
+					<model ea_localid="65" type="Class" name="SystemProperty"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3407,7 +3453,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="58"/>
+				<model ea_localid="48"/>
 				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -3420,7 +3466,7 @@
 			</connector>
 			<connector xmi:idref="EAID_6760E18B_C6D9_4af2_81CA_81523A0E0E98">
 				<source xmi:idref="EAID_6C170E6B_A99D_42d7_A1CD_ABDA7F006E75">
-					<model ea_localid="44" type="Class" name="SystemLifetime"/>
+					<model ea_localid="64" type="Class" name="SystemLifetime"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3431,7 +3477,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_D7761D65_D941_40f0_9073_1F4E3827DD34">
-					<model ea_localid="45" type="Class" name="SurvivalProperty"/>
+					<model ea_localid="61" type="Class" name="SurvivalProperty"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3441,7 +3487,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="65"/>
+				<model ea_localid="42"/>
 				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
 				<parameterSubstitutions/>
 				<documentation/>
@@ -3454,7 +3500,7 @@
 			</connector>
 			<connector xmi:idref="EAID_A97A11C5_78CA_4d0d_968E_8D66FC7BFA4D">
 				<source xmi:idref="EAID_AF7FF789_BD36_4f6f_88D5_A9B885B569DB">
-					<model ea_localid="64" type="Class" name="SurvivalRange"/>
+					<model ea_localid="62" type="Class" name="SurvivalRange"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3465,7 +3511,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_D7761D65_D941_40f0_9073_1F4E3827DD34">
-					<model ea_localid="45" type="Class" name="SurvivalProperty"/>
+					<model ea_localid="61" type="Class" name="SurvivalProperty"/>
 					<role name="hasSurvivalProperty" visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3475,7 +3521,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="63"/>
+				<model ea_localid="46"/>
 				<properties ea_type="Association" direction="Source -&gt; Destination"/>
 				<modifiers isRoot="false" isLeaf="false"/>
 				<parameterSubstitutions/>
@@ -3489,7 +3535,7 @@
 			</connector>
 			<connector xmi:idref="EAID_4584BB7D_8CEA_4231_A366_94315291B089">
 				<source xmi:idref="EAID_0F94E474_057B_4f84_A19C_0FAB671A7703">
-					<model ea_localid="65" type="Class" name="SystemCapability"/>
+					<model ea_localid="63" type="Class" name="SystemCapability"/>
 					<role visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3500,7 +3546,7 @@
 					<tags/>
 				</source>
 				<target xmi:idref="EAID_DAD13197_F816_4e01_8AA5_D9098DE24D4D">
-					<model ea_localid="62" type="Class" name="SystemProperty"/>
+					<model ea_localid="65" type="Class" name="SystemProperty"/>
 					<role name="hasSystemProperty" visibility="Public" targetScope="instance"/>
 					<type aggregation="none" containment="Unspecified"/>
 					<constraints/>
@@ -3510,7 +3556,7 @@
 					<xrefs/>
 					<tags/>
 				</target>
-				<model ea_localid="44"/>
+				<model ea_localid="43"/>
 				<properties ea_type="Association" direction="Source -&gt; Destination"/>
 				<modifiers isRoot="false" isLeaf="false"/>
 				<parameterSubstitutions/>
@@ -3865,7 +3911,7 @@
 				<properties name="Condition" type="Logical"/>
 				<project author="cheazel" version="1.0" created="2019-07-03 08:23:40" modified="2019-07-03 10:58:21"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=799;DocSize.cy=1067;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="SaveTag=9E54EB4B;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<style2 value="SaveTag=CC2A07E7;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -3890,7 +3936,7 @@
 				<properties name="Deployment" type="Logical"/>
 				<project author="cheazel" version="1.0" created="2019-07-03 08:23:07" modified="2019-07-03 10:56:49"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=799;DocSize.cy=1067;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="SaveTag=172094E2;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<style2 value="SaveTag=7BD7D81E;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -3911,7 +3957,7 @@
 				<properties name="Feature" type="Logical"/>
 				<project author="cheazel" version="1.0" created="2019-07-03 08:22:19" modified="2019-07-03 11:01:49"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=799;DocSize.cy=1067;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="SaveTag=28C297B7;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<style2 value="SaveTag=DFE7B6EA;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -3931,7 +3977,7 @@
 				<properties name="Observation" type="Logical"/>
 				<project author="cheazel" version="1.0" created="2019-07-03 08:32:35" modified="2019-07-03 11:09:14"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=799;DocSize.cy=1067;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="SaveTag=1868696A;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<style2 value="SaveTag=4A6ACB6A;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -3953,7 +3999,7 @@
 				<properties name="Procedure" type="Logical"/>
 				<project author="cheazel" version="1.0" created="2019-07-03 08:26:39" modified="2019-07-03 11:14:37"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=799;DocSize.cy=1067;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="SaveTag=B19CB3FA;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<style2 value="SaveTag=367994E2;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -3963,8 +4009,8 @@
 					<element geometry="Left=274;Top=113;Right=373;Bottom=218;" subject="EAID_3CBF0374_C199_4611_B273_335217DAA5D3" seqno="3" style="DUID=781B72D6;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
 					<element geometry="Left=44;Top=223;Right=134;Bottom=251;" subject="EAID_7A57097F_BDB2_4e54_9380_BCC3FC98E2A1" seqno="4" style="DUID=4A4927C8;"/>
 					<element geometry="Left=49;Top=70;Right=139;Bottom=98;" subject="EAID_48494FEA_391B_4297_9FF9_C174021D2CBF" seqno="5" style="DUID=908DE0AF;"/>
-					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=CX=55:CY=13:OX=0:OY=-14:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_DFB8B6B3_0A37_4643_B733_0DB0A228B116" style="Mode=3;EOID=4A4927C8;SOID=781B72D6;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=CX=47:CY=13:OX=24:OY=10:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_8094B9FE_080C_48a6_9C12_F5E8ADA933EC" style="Mode=3;EOID=908DE0AF;SOID=781B72D6;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=CX=55:CY=13:OX=0:OY=-14:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_DFB8B6B3_0A37_4643_B733_0DB0A228B116" style="Mode=3;EOID=4A4927C8;SOID=781B72D6;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;Path=646:-284$676:-284$676:-269$646:-269$;" subject="EAID_1BCBCC89_2264_4f88_828F_BC1561E19D3F" style=";Hidden=0;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=CX=77:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=62:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_6F13B576_5E8A_44da_B496_5135F578D35F" style="Mode=3;EOID=781B72D6;SOID=C2FE5912;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=CX=77:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_B7F44359_AEE8_490c_A55F_526E1DDE9A6F" style="Mode=3;EOID=781B72D6;SOID=2D658D8D;Color=-1;LWidth=0;Hidden=0;"/>
@@ -3975,7 +4021,7 @@
 				<properties name="System" type="Logical"/>
 				<project author="cheazel" version="1.0" created="2019-07-03 08:45:44" modified="2019-07-03 11:19:33"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=799;DocSize.cy=1067;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="SaveTag=565A5D94;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<style2 value="SaveTag=653330E4;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -4002,7 +4048,7 @@
 				<properties name="SystemProperty" type="Logical"/>
 				<project author="cheazel" version="1.0" created="2019-07-03 08:27:30" modified="2019-07-17 12:09:41"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=799;DocSize.cy=1067;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=8762BB8D;"/>
+				<style2 value="SaveTag=10FD3C3D;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -4023,6 +4069,8 @@
 					<element geometry="Left=260;Top=411;Right=392;Bottom=516;" subject="EAID_71CEB540_B1E7_4978_8FB6_BA67BD5674F8" seqno="14" style="DUID=AC23926E;"/>
 					<element geometry="Left=456;Top=406;Right=578;Bottom=511;" subject="EAID_AF7FF789_BD36_4f6f_88D5_A9B885B569DB" seqno="15" style="DUID=6F8A9B7C;"/>
 					<element geometry="Left=51;Top=300;Right=170;Bottom=418;" subject="EAID_0F94E474_057B_4f84_A19C_0FAB671A7703" seqno="16" style="DUID=DBD539DA;"/>
+					<element geometry="EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=CX=97:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_4584BB7D_8CEA_4231_A366_94315291B089" style="Mode=3;EOID=E15FDAC7;SOID=DBD539DA;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_BF2FA591_F955_4a5e_8B69_C65A01632AB8" style="Mode=3;EOID=E15FDAC7;SOID=1F798C64;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_AE46241F_8D4F_494d_B599_A669630E5F78" style="Mode=3;EOID=E15FDAC7;SOID=A1814D2A;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_5DC6B28F_9FF3_4291_A74A_09E7386280FD" style="Mode=3;EOID=E15FDAC7;SOID=28BCFD2E;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_6B7935E2_ADA6_4256_AE2F_B61659BCAB61" style="Mode=3;EOID=E15FDAC7;SOID=E7866A8F;Color=-1;LWidth=0;Hidden=0;"/>
@@ -4034,8 +4082,6 @@
 					<element geometry="EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_AD81A7F1_C066_441e_A5D1_F2D12998F256" style="Mode=3;EOID=E15FDAC7;SOID=1B8CD45D;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_71A576DF_88FF_41d2_83DB_26FBAD032F4C" style="Mode=3;EOID=E15FDAC7;SOID=3AA6229B;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_03858868_01FD_4f58_883B_7CC85C23C3A1" style="Mode=3;EOID=E15FDAC7;SOID=CB4CA4A1;Color=-1;LWidth=0;Hidden=0;"/>
-					<element geometry="EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=CX=97:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_4584BB7D_8CEA_4231_A366_94315291B089" style="Mode=3;EOID=E15FDAC7;SOID=DBD539DA;Color=-1;LWidth=0;Hidden=0;"/>
-					<element geometry="EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_BF2FA591_F955_4a5e_8B69_C65A01632AB8" style="Mode=3;EOID=E15FDAC7;SOID=1F798C64;Color=-1;LWidth=0;Hidden=0;"/>
 				</elements>
 			</diagram>
 			<diagram xmi:id="EAID_716DEAF0_7CD0_44ff_AD73_0088AA24F33A">
@@ -4043,7 +4089,7 @@
 				<properties name="OperatingRange" type="Logical"/>
 				<project author="cheazel" version="1.0" created="2019-07-03 09:11:10" modified="2019-07-03 10:47:21"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=799;DocSize.cy=1067;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="SaveTag=44EFFEAE;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<style2 value="SaveTag=0BDAEC27;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -4068,7 +4114,7 @@
 				<properties name="SurvivalRange" type="Logical"/>
 				<project author="cheazel" version="1.0" created="2019-07-03 09:15:58" modified="2019-07-03 10:48:31"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=799;DocSize.cy=1067;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="SaveTag=8C3A1E32;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<style2 value="SaveTag=29A97AC9;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -4093,7 +4139,7 @@
 				<properties name="SystemPropertyInheritance" type="Logical"/>
 				<project author="cheazel" version="1.0" created="2019-07-03 09:51:49" modified="2019-07-17 12:09:37"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=799;DocSize.cy=1067;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=75EFF83E;"/>
+				<style2 value="SaveTag=A5C12842;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -4135,7 +4181,7 @@
 				<properties name="SystemCapabilty" type="Logical"/>
 				<project author="cheazel" version="1.0" created="2019-07-03 10:29:34" modified="2019-07-03 14:11:50"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=799;DocSize.cy=1067;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="SaveTag=A1D6C086;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<style2 value="SaveTag=DEBCA405;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -4147,8 +4193,8 @@
 					<element geometry="Left=333;Top=160;Right=452;Bottom=252;" subject="EAID_0F94E474_057B_4f84_A19C_0FAB671A7703" seqno="5" style="DUID=4466B45B;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
 					<element geometry="EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=CX=60:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_8B0C3304_76A7_4165_BDB1_5974F39A7714" style="Mode=3;EOID=5655FB5E;SOID=4466B45B;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="SX=3;SY=26;EX=3;EY=26;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=CX=59:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_88F2BB8C_84A3_41eb_A53B_4DD1EC5493AE" style="Mode=3;EOID=3BD7BC11;SOID=4466B45B;Color=-1;LWidth=0;Hidden=0;"/>
-					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=CX=97:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_4584BB7D_8CEA_4231_A366_94315291B089" style="Mode=3;EOID=C1D3462B;SOID=4466B45B;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_D43CDC92_8589_4e07_AEF8_E41F2AF93532" style="Mode=3;EOID=3BD7BC11;SOID=4466B45B;Color=-1;LWidth=0;Hidden=1;"/>
+					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=CX=97:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_4584BB7D_8CEA_4231_A366_94315291B089" style="Mode=3;EOID=C1D3462B;SOID=4466B45B;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_E5DDD9C7_8288_4b03_87FB_552C3FFCBEA9" style="Mode=3;EOID=3BD7BC11;SOID=C1D3462B;Color=-1;LWidth=0;Hidden=1;"/>
 					<element geometry="SCTR=1;SCME=1;SX=0;SY=0;EX=0;EY=0;EDGE=1;SCTR.LEFT=77;SCTR.TOP=-156;SCTR.RIGHT=150;SCTR.BOTTOM=-80;$LLB=;LLT=;LMT=;LMB=;LRT=CX=73:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=150:-134$150:-80$77:-80$77:-134$;" subject="EAID_1BCBCC89_2264_4f88_828F_BC1561E19D3F" style="Mode=3;EOID=3B9139B0;SOID=3B9139B0;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=CX=104:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_1F1E1157_C2C6_4ae0_9395_0723ADE490CB" style="Mode=3;EOID=4466B45B;SOID=3B9139B0;Color=-1;LWidth=0;Hidden=0;"/>
