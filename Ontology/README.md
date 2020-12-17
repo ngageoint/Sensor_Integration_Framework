@@ -2,13 +2,13 @@
 
 ## Introduction
 
-The OGC Sensor Web Enablement (SWE) set of standards define the Web Services and data formats necessary to provide sensor information to the DCGS enterprise which is independent of the reporting sensor and phenomenology. This capability is key to multi-INT analysis. However, SWE does not address how that data gets into the SWE software.  The Sensor Integration Framework provides the tools and processes to address that issue.
+The OGC Sensor Web Enablement (SWE) set of standards define the Web Services and data formats necessary to provide sensor information to the DCGS enterprise. SWE is independent of the reporting sensor and phenomenology. This capability is key to multi-INT analysis. However, SWE does not address how that reported data gets into the SWE software. The Sensor Integration Framework provides the tools and processes to address that issue.
 
 ## The Ontology
 
 The SIF Ontology is a pragmatic effort. Many rules have been violated in the quest to build a useful tool. First of which, this ontology is encoded in UML. While purists will be horrified, the SMEs contributing to this work understand UML and have the tools necessary to work with it. They are not (by and large) conversant with OWL/RDF. So heresy has been committed in the name of progress.
 
-The SIF Ontology five major parts:
+The SIF Ontology Is based on the [W3C Semantic Sensor Network](https://www.w3.org/TR/vocab-ssn/). The SSN has eight major part. five of them are elaborated upon in the SIF Ontology:
 
 . Base Data Types: These classes capture the relevant concepts from SWE Common. In addition, the Base Simple Types define a set of basic concepts for use elsewhere in the ontology. These classes align basic concepts such as Amps or Hertz with the corresponding SWE Common construct for representing that concept. The classes exist primarily for re-use by other classes in the Ontology.
 
